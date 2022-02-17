@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 
-
-
-
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 
@@ -39,10 +36,8 @@ public class ClientController {
         this.clientService = clientService;
     }
 
-
     @PostMapping("/clientkey")
     public ResponseEntity<String> postClientKey(HttpServletResponse response){
-
 
         String newClientKey;
         log.info("post clientKey");

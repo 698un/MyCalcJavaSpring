@@ -10,4 +10,4 @@ public class TestSring1Application {
 		SpringApplication.run(TestSring1Application.class, args);
 	}
 
-}
+     }
