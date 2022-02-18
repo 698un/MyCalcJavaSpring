@@ -2,6 +2,7 @@ package by.unil2.itstep.testSring1.utilits;
 
 
  import by.unil2.itstep.testSring1.utilits.loger.LogState;
+ import org.springframework.stereotype.Component;
 
  import java.io.File;
  import java.io.IOException;
@@ -11,7 +12,7 @@ package by.unil2.itstep.testSring1.utilits;
  import java.util.Scanner;
  import java.util.concurrent.ConcurrentHashMap;
 
-
+@Component
 public class CalcOptions {
 
     //private ConcurrentHashMap<String,String> optList;
@@ -163,7 +164,7 @@ public class CalcOptions {
     }//getOptions
 
 
-    private CalcOptions (){
+    public CalcOptions (){
         optListStr =     new ConcurrentHashMap<String,String>();
         optListInt =     new ConcurrentHashMap<String,Integer>();
         optListBoolean = new ConcurrentHashMap<String,Boolean>();

@@ -4,6 +4,8 @@ import by.unil2.itstep.testSring1.dao.model.Client;
 import by.unil2.itstep.testSring1.services.ClientService;
 import by.unil2.itstep.testSring1.services.ProductService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
+import by.unil2.itstep.testSring1.utilits.loger.LogState;
+import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
@@ -23,25 +25,36 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class ClientController {
 
+    //Logger log = LoggerFactory.getLogger(this.getClass());
 
-    Logger log = LoggerFactory.getLogger(ClientController.class);
-
-
-
-
+    private final CalcOptions calcOpt;
     private final ClientService clientService;
+    private final MyLogger myLog;
+
+
 
     //constructor
-    public ClientController(ClientService clientService){
-        this.clientService = clientService;
-    }
+    public ClientController(ClientService inpClientService,
+                            CalcOptions inpCalcOptions,
+                            MyLogger inpMyLogger){
+        this.clientService = inpClientService;
+        this.calcOpt = inpCalcOptions;
+        this.myLog = inpMyLogger;
+        }//constructor
+
+
+
+
+
 
     @PostMapping("/clientkey")
     public ResponseEntity<String> postClientKey(HttpServletResponse response){
 
         String newClientKey;
-        log.info("post clientKey");
-        System.out.println("CLIENTKEY");
+        myLog.info("client ask clientKey");
+
+
+        System.out.println(calcOpt.getStr("applicationPath"));
 
         //get client key from service
 
@@ -49,7 +62,7 @@ public class ClientController {
             newClientKey = clientService.getNewClientKey();
             } catch(Exception e) {
 
-            log.error(e.getMessage());
+            myLog.error(e.getMessage());
             return ResponseEntity.status(401).body("not Autorized");
 
             }
