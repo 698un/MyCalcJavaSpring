@@ -39,9 +39,18 @@ public class CalcOptions {
     private String videoResultatFolder;
     private String commandFolder;
 
-    public String getStr(String name){     return optListStr.get(name);     }
-    public int    getInt(String name){     return optListInt.get(name);     }
+
     public boolean getBoolean(String name){return optListBoolean.get(name); }
+    public String getStr(String name){     return optListStr.get(name);     }
+
+    public int    getInt(String name){
+        String strValue = optListStr.get(name);
+        int intValue = Integer.valueOf(strValue);
+        return intValue;
+        }
+
+
+
 
 
     /**
@@ -110,10 +119,14 @@ public class CalcOptions {
                 int limitIndex = lineString.indexOf("=");
 
                 keyStr  = lineString.substring(0,limitIndex);
-                valStr  = lineString.substring(limitIndex+1);
+                valStr  = lineString.substring(limitIndex+1).trim();
 
                 //add to String map
                 optListStr.put(keyStr, valStr);
+
+
+                System.out.println(keyStr+" : "+valStr);
+
 
                 //add to int map
                 try {
