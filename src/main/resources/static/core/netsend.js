@@ -63,6 +63,7 @@ function sendPostServerArray2(urlStr,arr) {
         strAll+=str1;
         }//next i
 
+    //alert (strAll.length);
 
     let answerStr = sendAnyHttp("POST",urlStr,strAll);
 

@@ -58,7 +58,7 @@ public class PixelLine {
 
 
 
-    //TODO
+
     public void setComplette(PixelLine complettePixelLine) throws Exception{
 
         //verify status

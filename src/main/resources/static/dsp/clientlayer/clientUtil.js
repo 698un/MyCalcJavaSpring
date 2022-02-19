@@ -13,7 +13,7 @@ let calcTimeOut =-1;
 
     let answerStr = sendAnyHttp("GET","/newtask", "{}");
 
-   alert(answerStr);
+   //alert(answerStr);
 
 
     if (answerStr.indexOf("error")>-1) {

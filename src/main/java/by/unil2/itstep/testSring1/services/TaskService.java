@@ -80,6 +80,13 @@ public class TaskService {
      */
     public Long postCompletteTask(PixelLine complettePixelLine) throws Exception{
 
+        myLog.info("Client "+complettePixelLine.getClientKey()+
+                  " send resultat:"+
+                  "frame: "+complettePixelLine.getFrameNumber()+
+                  "line: "+complettePixelLine.getFrameNumber()
+                   );
+
+
 
 
         try {
