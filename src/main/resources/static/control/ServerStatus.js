@@ -22,7 +22,7 @@ class ServerStatus {
 
         this.cmdKeyUpdate="/server/status";
         this.lastUpdateTime = tNow-100;
-        this.updateInterval = 5;
+        this.updateInterval = 25;
 
         this.serverStatus="none";//object of server status
         this.rotate_angle=0;
@@ -57,7 +57,7 @@ class ServerStatus {
 
         let answerStr = sendAnyHttp("GET",this.cmdKeyUpdate,"{}");
 
-        alert(answerStr)
+        //alert(answerStr)
 
         //Verifyng errors
         if (answerStr.indexOf("error")>-1) {

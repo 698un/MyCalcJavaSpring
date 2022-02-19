@@ -44,3 +44,140 @@
 [INFO]	2022-02-19 13:04:47.392	InfoController	client ask ServerStatus
 [INFO]	2022-02-19 13:04:52.328	InfoController	client ask ServerStatus
 [INFO]	2022-02-19 13:04:53.781	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 13:06:55.954	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 13:06:55.956	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 13:06:58.035	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 13:07:10.088	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 13:07:10.090	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 13:07:15.992	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 13:07:17.513	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 13:07:22.506	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 13:07:22.507	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 17:21:17.943	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 17:21:17.944	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 17:21:20.028	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 17:21:25.034	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 17:21:27.660	ClientController	New Client ask clientKey
+[DEBUG]	2022-02-19 17:21:30.277	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 17:21:30.279	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 17:21:31.801	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 17:21:37.221	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 17:21:42.234	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 17:21:42.235	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:35:46.841	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:35:46.842	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:37:18.826	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:37:18.827	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:37:23.833	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:37:28.839	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:37:28.840	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:37:33.839	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:37:38.856	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:37:38.858	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:38:27.628	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:38:27.630	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:38:29.623	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:38:32.058	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:38:37.061	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:38:42.071	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:38:42.072	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:38:47.071	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:38:49.923	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:38:54.937	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:38:54.939	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:38:59.938	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:39:04.954	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:39:04.955	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:39:13.573	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:39:40.857	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:39:40.858	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:39:43.754	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:39:45.988	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:39:50.989	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:39:50.991	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:39:56.004	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:40:08.260	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:40:08.261	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:40:19.640	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:40:19.661	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:40:22.073	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:40:35.951	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:40:35.952	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:41:45.950	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:41:45.954	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:41:54.529	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:42:47.711	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:42:47.713	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:43:00.402	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:43:00.405	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:44:12.019	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:44:12.021	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:44:30.199	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:44:30.200	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:44:32.796	ClientController	New Client ask clientKey
+[INFO]	2022-02-19 18:44:36.998	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:44:37.016	TaskService	Client uensjjgukp ask new task
+[INFO]	2022-02-19 18:44:53.798	TaskService	Client uensjjgukp ask new task
+[INFO]	2022-02-19 18:44:55.871	TaskService	Client uensjjgukp ask new task
+[INFO]	2022-02-19 18:44:58.740	TaskService	Client uensjjgukp ask new task
+[DEBUG]	2022-02-19 18:46:05.042	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:46:05.044	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:46:07.095	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:46:09.323	ClientController	New Client ask clientKey
+[INFO]	2022-02-19 18:46:10.993	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:46:11.003	TaskService	Client akfimuigge ask new task
+[DEBUG]	2022-02-19 18:46:44.480	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:46:44.481	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:47:01.176	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:47:01.178	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:47:08.074	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:47:10.790	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:47:12.259	ClientController	New Client ask clientKey
+[DEBUG]	2022-02-19 18:47:13.524	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:47:13.526	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:47:13.537	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:15.840	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:17.305	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:18.308	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:19.329	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:24.624	TaskService	Client lmthtfvyye ask new task
+[DEBUG]	2022-02-19 18:47:25.192	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:47:25.194	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:47:25.205	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:27.239	TaskService	Client lmthtfvyye ask new task
+[INFO]	2022-02-19 18:47:28.407	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:47:28.416	TaskService	Client lmthtfvyye ask new task
+[DEBUG]	2022-02-19 18:52:09.620	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:52:09.622	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:52:11.071	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:52:13.235	ClientController	New Client ask clientKey
+[INFO]	2022-02-19 18:52:15.687	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:52:15.697	TaskService	Client spmjqefyip ask new task
+[INFO]	2022-02-19 18:52:25.864	TaskService	Client spmjqefyip ask new task
+[DEBUG]	2022-02-19 18:53:31.670	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:53:31.671	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 18:54:18.546	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:54:18.548	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:54:20.684	ClientController	New Client ask clientKey
+[INFO]	2022-02-19 18:54:22.160	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:54:22.170	TaskService	Client tjleiwmtpa ask new task
+[INFO]	2022-02-19 18:54:45.993	TaskService	Client tjleiwmtpa ask new task
+[DEBUG]	2022-02-19 18:54:47.305	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:54:47.307	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:54:47.320	TaskService	Client tjleiwmtpa ask new task
+[INFO]	2022-02-19 18:54:52.228	TaskService	Client tjleiwmtpa ask new task
+[INFO]	2022-02-19 18:54:53.280	TaskService	Client tjleiwmtpa ask new task
+[INFO]	2022-02-19 18:54:54.281	TaskService	Client tjleiwmtpa ask new task
+[INFO]	2022-02-19 18:54:55.280	TaskService	Client tjleiwmtpa ask new task
+[DEBUG]	2022-02-19 18:56:14.895	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 18:56:14.897	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:56:17.899	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:56:18.725	ClientController	New Client ask clientKey
+[INFO]	2022-02-19 18:56:20.144	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 18:56:20.153	TaskService	Client osphfbfxyq ask new task
+[INFO]	2022-02-19 18:56:27.246	TaskService	Client osphfbfxyq ask new task
+[INFO]	2022-02-19 18:56:29.112	TaskService	Client osphfbfxyq ask new task
+[INFO]	2022-02-19 18:56:30.280	TaskService	Client osphfbfxyq ask new task
+[INFO]	2022-02-19 18:56:33.530	TaskService	Client osphfbfxyq ask new task
+[INFO]	2022-02-19 18:56:34.679	TaskService	Client osphfbfxyq ask new task
+[INFO]	2022-02-19 18:56:35.830	TaskService	Client osphfbfxyq ask new task

@@ -51,15 +51,17 @@ public class ClientService {
     }//getNewRootKey
 
 
-
-
-
     public int getClientCount()throws Exception{
 
         try{
             return clientRep.getClientCount();
             } catch (Exception e){ throw new Exception(e.getMessage());}
-            }//getClientCount
+        }//getClientCount
+
+
+
+
+
 
 
 

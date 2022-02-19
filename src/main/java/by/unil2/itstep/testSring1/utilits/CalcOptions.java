@@ -21,23 +21,11 @@ public class CalcOptions {
 
     private volatile Map<String,String>  optListStr;
 
-    private int imageInBufferCount;
-
-    //control properties
-    private int lineLifeTime;
-    private int clientLifeTime;
-    private int clientClearTime;
-
-    //image properties
-    private int fps;
-    private int imageHeight;
-    private int imageWidth;
-    private int antialiasing;
 
     //paths properties
-    private String imageResultatFolder;
-    private String videoResultatFolder;
-    private String commandFolder;
+    private String applicationPath;
+    public String getApplicationPath(){return this.applicationPath;}
+
 
 
     public CalcOptions (){
@@ -107,13 +95,10 @@ public class CalcOptions {
     private void reLoad(){
 
         //Read options from file
-        String appPath = System.getProperty("user.dir");
+        this.applicationPath= System.getProperty("user.dir");
 
 
-        //add properties ApplicationPath
-        this.optListStr.put("applicationPath",appPath);
-
-        File fileConfig = new File(appPath+ File.separator+"config.ini");
+        File fileConfig = new File(applicationPath+ File.separator+"config.ini");
 
 
         try {

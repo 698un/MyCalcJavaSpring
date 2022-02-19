@@ -152,7 +152,10 @@ function sendAnyHttp(httpType,cmdKey,dataStr){
         }  catch (err) {
 
             //if (xhr.statusText!="OK") {
-            //alert(xhr.statusText);//text of error
+
+            alert(xhr.statusText);//text of error
+
+
             let errorStr = "error "+xhr.status+" "+xhr.statusText;
             console.log(errorStr);
             return errorStr;
