@@ -6,7 +6,6 @@ package by.unil2.itstep.testSring1.utilits.loger;
 
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.MyLocker;
-import by.unil2.itstep.testSring1.services.ClientService;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedWriter;
@@ -32,6 +31,9 @@ public class MyLogger {
         }
 
     private String folderPath;
+    private String nowFilePath; //path to folder "log/date"
+    private LogState recordLevel = LogState.ALL;
+    private boolean logConsole  = false;
 
     public void reset(){
          this.folderPath = System.getProperty("user.dir")+
@@ -39,34 +41,16 @@ public class MyLogger {
                            "log" +
                            File.separator;
 
-         this.logConsole =calcOpt.getBoolean("logConsole");
-
-         System.out.println(calcOpt.getStr("logLevel"));
-
-         this.recordLevel = LogState.DEBUG;
-
-         //Try need because text converted to LogState
          try{
+             this.logConsole =calcOpt.getBoolean("logConsole");
              this.recordLevel = LogState.valueOf(calcOpt.getStr("logLevel"));
+             } catch (Exception e) {         System.out.println("LogLevel not read");}
 
-            } catch (Exception e) {         System.out.println("LogLevel not read");}
-
-            //this.recordLevel = LogState.valueOf(calcOpt.getStr("logLevel"));
-         }
+         }//reset
 
 
-
-
-
-
-    private String nowFilePath; //path to folder "log/date"
     private long dayNow=-1L;//date in stringToInt format(YYYYMMDD), value inposible that necesalary reCalculate in first time
-
-    private long dayNowTemp;
-
-
-    private LogState recordLevel = LogState.ALL;
-    private boolean logConsole  = false;
+   // private long dayNowTemp;//value for verify
 
 
     /**
@@ -75,34 +59,34 @@ public class MyLogger {
      */
     public void setRecordLevel(LogState state){
         this.recordLevel = state;
-    }
+        }
 
 
     /**
      * All kids of situation
      * @param logMessage
      */
-    public void info (String logMessage){ this.log(LogState.INFO, logMessage); }
-    public void trace(String logMessage){ this.log(LogState.TRACE,logMessage); }
-    public void all  (String logMessage){ this.log(LogState.ALL,  logMessage); }
-    public void debug(String logMessage){ this.log(LogState.DEBUG,logMessage); }
-    public void error(String logMessage){ this.log(LogState.ERROR,logMessage); }
-    public void fatal(String logMessage){ this.log(LogState.FATAL,logMessage); }
-    public void warn (String logMessage){ this.log(LogState.WARN, logMessage); }
+    public void info (String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.INFO, logMessage); }
+    public void trace(String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.TRACE,logMessage); }
+    public void all  (String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.ALL,  logMessage); }
+    public void debug(String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.DEBUG,logMessage); }
+    public void error(String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.ERROR,logMessage); }
+    public void fatal(String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.FATAL,logMessage); }
+    public void warn (String logMessage){ this.log(new Exception().getStackTrace()[1].getClassName(),LogState.WARN, logMessage); }
 
 
     /**
      * This method construction record for write to display or to file
      * and send this record on screen and logFile
      */
-    public void log(LogState logState,
+    public void log(String callerClassName,
+                    LogState logState,
                     String message ){
 
         //exit if level if hightes of recordLevel
         if (logState.ordinal()>recordLevel.ordinal()) return;
 
         //defined name of caller Class
-        String callerClassName = new Exception().getStackTrace()[1].getClassName();
         int indexDot = callerClassName.lastIndexOf(".");
         if  (indexDot>=-1) {
             callerClassName = callerClassName.substring(indexDot+1);
@@ -116,18 +100,21 @@ public class MyLogger {
                 message;
 
 
-        //send log record to file ond console
+        //send log record to file and console
         if (this.logConsole) System.out.println(recordString);
-        writeRecord(recordString);
+        writeRecordToFile(recordString);
 
-    }//log
+        }//log
 
 
     /**
      * This method write o log file massage
      * @param record
      */
-    public void writeRecord(String record){
+    public void writeRecordToFile(String record){
+
+        //verify filename to records of log
+        this.fileNameChange();
 
         //synchronize access to log file
         synchronized (MyLocker.getLocker()) {
@@ -151,35 +138,36 @@ public class MyLogger {
     private void fileNameChange(){
 
         //defined current date in long representation "YYYYMMDD"
-        dayNowTemp = LocalDate.now().getYear()*10000+
-                LocalDate.now().getMonthValue()*100+
-                LocalDate.now().getDayOfMonth();
+        long dayNowTemp = LocalDate.now().getYear()*10000+
+                     LocalDate.now().getMonthValue()*100+
+                     LocalDate.now().getDayOfMonth();
 
-        //if date is change then reDefined path to logFile
-        if (dayNowTemp!=dayNow) {
+        //if date not change then exit from method
+        if (dayNowTemp==dayNow) return;
 
-            dayNow = dayNowTemp;
-            String dateString= String.valueOf(dayNow);
 
-            //Create fileName for "YYYY-MM-DD.log"
-            String fileName = dateString.substring(0,4)+
-                    "-"+
-                    dateString.substring(4,6)+
-                    "-"+
-                    dateString.substring(6)+
-                    ".log";
+        dayNow = dayNowTemp;
+        String dateString= String.valueOf(dayNow);
 
-            //construct filname for logFile
-            nowFilePath=folderPath +fileName;
+        //Create fileName for "YYYY-MM-DD.log"
+        String fileName = dateString.substring(0,4)+
+                          "-"+
+                          dateString.substring(4,6)+
+                          "-"+
+                          dateString.substring(6)+
+                          ".log";
 
-            //search file on the disc
-            //create new file of log if this file is not exist
-            File fileLog = new File(nowFilePath);
-            if (!fileLog.exists()) {
-                try{fileLog.createNewFile();}catch (Exception e){e.printStackTrace();};
+        //construct filname for logFile
+        nowFilePath=folderPath +fileName;
+
+        //search file on the disc
+        //create new file of log if this file is not exist
+        File fileLog = new File(nowFilePath);
+        if (!fileLog.exists()) {
+            try{fileLog.createNewFile();}catch (Exception e){e.printStackTrace();};
             }
-        }//if day is change
-    }//fileNameChange
+
+        }//fileNameChange
 
 
 

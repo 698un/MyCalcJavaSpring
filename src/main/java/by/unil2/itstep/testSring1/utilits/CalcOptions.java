@@ -1,6 +1,7 @@
 package by.unil2.itstep.testSring1.utilits;
 
 
+ import by.unil2.itstep.testSring1.exceptions.AccessException;
  import by.unil2.itstep.testSring1.utilits.loger.LogState;
  import org.springframework.stereotype.Component;
 
@@ -38,6 +39,18 @@ public class CalcOptions {
     private String imageResultatFolder;
     private String videoResultatFolder;
     private String commandFolder;
+
+
+    public CalcOptions (){
+        optListStr =     new ConcurrentHashMap<String,String>();
+        optListInt =     new ConcurrentHashMap<String,Integer>();
+        optListBoolean = new ConcurrentHashMap<String,Boolean>();
+        this.reLoad();//read fields from file
+
+        this.rootKey = getRandomKey(10);
+        }//constructor
+
+
 
 
     public boolean getBoolean(String name){return optListBoolean.get(name); }
@@ -80,17 +93,14 @@ public class CalcOptions {
      * @return  rootKey (new created key for root)
      * @return  "none" if password not equals
      */
-    public String getNewRootKey(String inpPassword){
-        String rootPassword = getStr("rootPassword");
+    public String getNewRootKey(String inpPassword)throws AccessException{
+        String rootPassword = this.getStr("rootPassword");//get rootPassword from config
         if (rootPassword.equals(inpPassword)) {
                     this.rootKey = getRandomKey(10);
                     return this.rootKey;
                     }
-        return "none";
+        throw new AccessException("Invalid login or password!");
         }//rootPasswordEquals
-
-
-
 
     private void reLoad(){
 
@@ -123,33 +133,9 @@ public class CalcOptions {
 
                 //add to String map
                 optListStr.put(keyStr, valStr);
+                //System.out.println(keyStr+" : "+valStr);
 
-
-                System.out.println(keyStr+" : "+valStr);
-
-
-                //add to int map
-                try {
-                    Integer valInt = Integer.parseInt(valStr);
-                    optListInt.put(keyStr, valInt);
-                    } catch(Exception e) {}
-
-                //add to boolean map
-                try {
-                    Boolean valBoolean = Boolean.parseBoolean(valStr);
-                    optListBoolean.put(keyStr, valBoolean);
-                    } catch(Exception e) {}
-
-                //add to int  map logLevel.ordinal()
-                try {
-                    LogState logLevel = Enum.valueOf(LogState.class, valStr);
-                    optListInt.put(keyStr,logLevel.ordinal());
-                    } catch(Exception e) {}
-
-
-
-
-            }//next Line
+                }//next Line
 
             scanner.close();
         } catch (IOException e) {e.printStackTrace();}
@@ -160,31 +146,8 @@ public class CalcOptions {
 
 
     //===========SYSTEM_METHODS==============================================
-    private static CalcOptions singleOptions;
 
 
-    /**
-     * This method release resetOptions
-     */
-    public static void setNull(){ singleOptions = null; }
-
-
-
-
-    public static CalcOptions getOptions(){
-        if (singleOptions==null) singleOptions = new CalcOptions();
-        return singleOptions;
-    }//getOptions
-
-
-    public CalcOptions (){
-        optListStr =     new ConcurrentHashMap<String,String>();
-        optListInt =     new ConcurrentHashMap<String,Integer>();
-        optListBoolean = new ConcurrentHashMap<String,Boolean>();
-        this.reLoad();//read fields from file
-
-        this.rootKey = getRandomKey(10);
-    }//constructor
 
 
 

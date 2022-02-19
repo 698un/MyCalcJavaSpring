@@ -6,6 +6,7 @@ import by.unil2.itstep.testSring1.services.ClientService;
 import by.unil2.itstep.testSring1.services.ProductService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -22,7 +23,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 
 @Controller
-public class ClientController {
+public class TaskController {
 
     private final CalcOptions calcOpt;
     private final ClientService clientService;
@@ -31,7 +32,7 @@ public class ClientController {
 
 
     //constructor
-    public ClientController(ClientService inpClientService,
+    public TaskController(ClientService inpClientService,
                             CalcOptions inpCalcOptions,
                             MyLogger inpMyLogger){
         this.clientService = inpClientService;
@@ -48,39 +49,39 @@ public class ClientController {
         //get client key from service for New Client
         try {
             newClientKey = clientService.getNewClientKey();
-            } catch(Exception e) {
-              myLog.error("Get New ClientKey"+e.getMessage());
-              return ResponseEntity.status(500).body("Internal Error");
-              }
+        } catch(Exception e) {
+            myLog.error("Get New ClientKey"+e.getMessage());
+            return ResponseEntity.status(401).body("not Autorized");
+        }
 
         Cookie cookie = new Cookie("ClientKey",newClientKey);//create cookie
         response.addCookie(cookie);                                //add cookie to response
         response.setContentType("text/plain");// mark response as string
         return ResponseEntity.ok().body(newClientKey);
-        }//Post /clientKey
+    }//Post /clientKey
 
 
     @PostMapping("/rootkey")
     public ResponseEntity<?> postRootKey(HttpServletResponse response,
                                          @RequestBody String adminPassword){
+
         myLog.info(" New Client ask RootKey");
 
         //get root key from config
         try {
-
-            String newRootKey = clientService.getNewRootKey(adminPassword);//get RootKey from Service
-            Cookie cookie = new Cookie("ClientKey",newRootKey);//create cookie for Root
+            String newRootKey = calcOpt.getNewRootKey(adminPassword);
+            Cookie cookie = new Cookie("ClientKey", newRootKey);//create cookie for Root
             response.addCookie(cookie);                              //add cookie to response
-            response.setContentType("text/plain");                   // mark response as string
+            response.setContentType("text/plain");// mark response as string
             return ResponseEntity.ok().body(newRootKey);
 
-            } catch (AccessException e) {
+            } catch (AccessException e){
               return new ResponseEntity<Error>(HttpStatus.ACCEPTED);
-
             } catch (Exception e){
               return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
               }
 
-        }//Post /clientKey
 
-    }//ClientController
+    }//Post /clientKey
+
+}//ClientController

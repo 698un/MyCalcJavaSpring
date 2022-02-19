@@ -1816,3 +1816,277 @@ java.lang.NumberFormatException: For input string: "25"
 2022-02-19 09:28:23.696 DEBUG 7584 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
 2022-02-19 09:28:23.696 DEBUG 7584 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@55fd41b5]
 2022-02-19 09:28:23.697 DEBUG 7584 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:13.156  INFO 7716 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : Starting TestSring1Application using Java 1.8.0_60 on skif16 with PID 7716 (E:\698un\ITSTEP_collection\springTest\v2\myCalcJavaSpring\target\classes started by 698un in E:\698un\ITSTEP_collection\springTest\v2\myCalcJavaSpring)
+2022-02-19 09:30:13.157  INFO 7716 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : No active profile set, falling back to default profiles: default
+2022-02-19 09:30:13.213  INFO 7716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-19 09:30:13.213  INFO 7716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-19 09:30:13.925  INFO 7716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-19 09:30:13.931  INFO 7716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-19 09:30:13.932  INFO 7716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 09:30:13.995  INFO 7716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-19 09:30:13.995  INFO 7716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 781 ms
+2022-02-19 09:30:14.136 DEBUG 7716 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-19 09:30:14.181 DEBUG 7716 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2022-02-19 09:30:14.182  INFO 7716 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-02-19 09:30:14.191 DEBUG 7716 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 1 mappings in 'beanNameHandlerMapping'
+2022-02-19 09:30:14.200 DEBUG 7716 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-19 09:30:14.206 DEBUG 7716 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-19 09:30:14.304 DEBUG 7716 --- [restartedMain] o.s.w.s.v.f.FreeMarkerConfigurer         : File system access not preferred: using SpringTemplateLoader
+2022-02-19 09:30:14.347  INFO 7716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-19 09:30:14.411  INFO 7716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-19 09:30:14.421  INFO 7716 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : Started TestSring1Application in 1.646 seconds (JVM running for 2.318)
+2022-02-19 09:30:18.903  INFO 7716 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 09:30:18.903  INFO 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-19 09:30:18.903 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-02-19 09:30:18.903 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-02-19 09:30:18.903 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-02-19 09:30:18.904 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@65553668
+2022-02-19 09:30:18.904 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@56078465
+2022-02-19 09:30:18.904 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-19 09:30:18.904  INFO 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-19 09:30:18.910 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:18.915 DEBUG 7716 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:18.975 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:18.975 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@45935d17]
+2022-02-19 09:30:18.987 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:28.301 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:28.302 DEBUG 7716 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:28.305 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:28.305 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@3af2be82]
+2022-02-19 09:30:28.307 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.792 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/index.html", parameters={}
+2022-02-19 09:30:31.796 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.800 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.838 DEBUG 7716 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/libraries/p5.min.js", parameters={}
+2022-02-19 09:30:31.840 DEBUG 7716 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.846 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/indexweb.js", parameters={}
+2022-02-19 09:30:31.847 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/netSession/netformat.js", parameters={}
+2022-02-19 09:30:31.848 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.850 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/dsp/indexlayer/UIClass.js", parameters={}
+2022-02-19 09:30:31.848 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.851 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.852 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.852 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.852 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.853 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/netSession/netdata.js", parameters={}
+2022-02-19 09:30:31.854 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.854 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/netSession/mycookie.js", parameters={}
+2022-02-19 09:30:31.855 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.857 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.857 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.866 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/control/ServerStatus.js", parameters={}
+2022-02-19 09:30:31.867 DEBUG 7716 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/dsp/indexlayer/Fon.js", parameters={}
+2022-02-19 09:30:31.867 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.868 DEBUG 7716 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.870 DEBUG 7716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.872 DEBUG 7716 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.892 DEBUG 7716 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.979 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-02-19 09:30:31.980 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:30:31.992 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:31.992 DEBUG 7716 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:31.993 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:31.993 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@42ed1840]
+2022-02-19 09:30:31.994 DEBUG 7716 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:31.998 DEBUG 7716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:36.991 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:36.992 DEBUG 7716 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:36.993 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:36.993 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@71944cf7]
+2022-02-19 09:30:36.994 DEBUG 7716 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:42.014 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:42.015 DEBUG 7716 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:42.016 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:42.016 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@736c802f]
+2022-02-19 09:30:42.017 DEBUG 7716 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:47.024 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:47.024 DEBUG 7716 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:47.025 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:47.025 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@5d83c481]
+2022-02-19 09:30:47.026 DEBUG 7716 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:52.039 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:52.040 DEBUG 7716 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:52.040 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:52.041 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@2ddebf16]
+2022-02-19 09:30:52.041 DEBUG 7716 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:30:57.040 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:30:57.040 DEBUG 7716 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:30:57.040 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:30:57.041 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@19414843]
+2022-02-19 09:30:57.041 DEBUG 7716 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:14.872  INFO 16632 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : Starting TestSring1Application using Java 1.8.0_60 on skif16 with PID 16632 (E:\698un\ITSTEP_collection\springTest\v2\myCalcJavaSpring\target\classes started by 698un in E:\698un\ITSTEP_collection\springTest\v2\myCalcJavaSpring)
+2022-02-19 09:31:14.873  INFO 16632 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : No active profile set, falling back to default profiles: default
+2022-02-19 09:31:14.916  INFO 16632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-19 09:31:14.916  INFO 16632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-19 09:31:15.686  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-19 09:31:15.692  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-19 09:31:15.692  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 09:31:15.774  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-19 09:31:15.774  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 857 ms
+2022-02-19 09:31:15.913 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-19 09:31:15.962 DEBUG 16632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2022-02-19 09:31:15.963  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-02-19 09:31:15.971 DEBUG 16632 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 1 mappings in 'beanNameHandlerMapping'
+2022-02-19 09:31:15.980 DEBUG 16632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-19 09:31:15.986 DEBUG 16632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-19 09:31:16.074 DEBUG 16632 --- [restartedMain] o.s.w.s.v.f.FreeMarkerConfigurer         : File system access not preferred: using SpringTemplateLoader
+2022-02-19 09:31:16.121  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-19 09:31:16.184  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-19 09:31:16.194  INFO 16632 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : Started TestSring1Application in 1.707 seconds (JVM running for 2.388)
+2022-02-19 09:31:20.661  INFO 16632 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 09:31:20.661  INFO 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-19 09:31:20.661 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-02-19 09:31:20.661 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-02-19 09:31:20.661 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-02-19 09:31:20.662 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1091fc6b
+2022-02-19 09:31:20.662 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@279bef64
+2022-02-19 09:31:20.662 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-19 09:31:20.662  INFO 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-19 09:31:20.668 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:31:20.673 DEBUG 16632 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:31:20.709 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:31:20.710 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@3c3c8fa1]
+2022-02-19 09:31:20.721 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.695 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/index.html", parameters={}
+2022-02-19 09:31:22.699 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.702 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.732 DEBUG 16632 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/libraries/p5.min.js", parameters={}
+2022-02-19 09:31:22.733 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/netSession/netdata.js", parameters={}
+2022-02-19 09:31:22.733 DEBUG 16632 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.734 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/indexweb.js", parameters={}
+2022-02-19 09:31:22.734 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.734 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.736 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.736 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.740 DEBUG 16632 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/dsp/indexlayer/UIClass.js", parameters={}
+2022-02-19 09:31:22.740 DEBUG 16632 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.741 DEBUG 16632 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/netSession/netformat.js", parameters={}
+2022-02-19 09:31:22.741 DEBUG 16632 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.742 DEBUG 16632 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.746 DEBUG 16632 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/control/ServerStatus.js", parameters={}
+2022-02-19 09:31:22.747 DEBUG 16632 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.746 DEBUG 16632 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/netSession/mycookie.js", parameters={}
+2022-02-19 09:31:22.748 DEBUG 16632 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.753 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/dsp/indexlayer/Fon.js", parameters={}
+2022-02-19 09:31:22.757 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.760 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.761 DEBUG 16632 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.763 DEBUG 16632 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.765 DEBUG 16632 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.783 DEBUG 16632 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.854 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-02-19 09:31:22.855 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-02-19 09:31:22.871 DEBUG 16632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:22.878 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:31:22.878 DEBUG 16632 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:31:22.879 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:31:22.879 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@631543c8]
+2022-02-19 09:31:22.880 DEBUG 16632 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:27.889 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:31:27.890 DEBUG 16632 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:31:27.890 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:31:27.890 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@5d71b4a4]
+2022-02-19 09:31:27.891 DEBUG 16632 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:32.890 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:31:32.891 DEBUG 16632 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:31:32.891 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:31:32.891 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@4c40bd9b]
+2022-02-19 09:31:32.892 DEBUG 16632 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:37.892 DEBUG 16632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:31:37.892 DEBUG 16632 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:31:37.892 DEBUG 16632 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:31:37.893 DEBUG 16632 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@2d47626e]
+2022-02-19 09:31:37.894 DEBUG 16632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:31:42.906 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:31:42.906 DEBUG 16632 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:31:42.907 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:31:42.907 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@71944cf7]
+2022-02-19 09:31:42.908 DEBUG 16632 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:40:30.265  INFO 17236 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : Starting TestSring1Application using Java 1.8.0_60 on skif16 with PID 17236 (E:\698un\ITSTEP_collection\springTest\v2\myCalcJavaSpring\target\classes started by 698un in E:\698un\ITSTEP_collection\springTest\v2\myCalcJavaSpring)
+2022-02-19 09:40:30.266  INFO 17236 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : No active profile set, falling back to default profiles: default
+2022-02-19 09:40:30.313  INFO 17236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-19 09:40:30.314  INFO 17236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-19 09:40:31.056  INFO 17236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-19 09:40:31.067  INFO 17236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-19 09:40:31.067  INFO 17236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 09:40:31.129  INFO 17236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-19 09:40:31.129  INFO 17236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 814 ms
+2022-02-19 09:40:31.269 DEBUG 17236 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-19 09:40:31.314 DEBUG 17236 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2022-02-19 09:40:31.315  INFO 17236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-02-19 09:40:31.322 DEBUG 17236 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 1 mappings in 'beanNameHandlerMapping'
+2022-02-19 09:40:31.332 DEBUG 17236 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-19 09:40:31.338 DEBUG 17236 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-19 09:40:31.428 DEBUG 17236 --- [restartedMain] o.s.w.s.v.f.FreeMarkerConfigurer         : File system access not preferred: using SpringTemplateLoader
+2022-02-19 09:40:31.475  INFO 17236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-19 09:40:31.541  INFO 17236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-19 09:40:31.550  INFO 17236 --- [restartedMain] b.u.i.testSring1.TestSring1Application   : Started TestSring1Application in 1.669 seconds (JVM running for 2.353)
+2022-02-19 09:40:33.422  INFO 17236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 09:40:33.422  INFO 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-19 09:40:33.422 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-02-19 09:40:33.422 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-02-19 09:40:33.422 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-02-19 09:40:33.423 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2d2ebef0
+2022-02-19 09:40:33.424 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e504cd0
+2022-02-19 09:40:33.424 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-19 09:40:33.424  INFO 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-19 09:40:33.430 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:40:33.434 DEBUG 17236 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:40:33.471 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:40:33.472 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@4c219e7e]
+2022-02-19 09:40:33.484 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:40:38.376 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:40:38.376 DEBUG 17236 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:40:38.376 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:40:38.377 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@52471e64]
+2022-02-19 09:40:38.378 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:40:58.257 DEBUG 17236 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:40:58.258 DEBUG 17236 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:40:58.259 DEBUG 17236 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:40:58.259 DEBUG 17236 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@299e6979]
+2022-02-19 09:40:58.260 DEBUG 17236 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:03.267 DEBUG 17236 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:03.267 DEBUG 17236 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:03.267 DEBUG 17236 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:03.268 DEBUG 17236 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@54ede052]
+2022-02-19 09:41:03.268 DEBUG 17236 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:08.275 DEBUG 17236 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:08.276 DEBUG 17236 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:08.276 DEBUG 17236 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:08.276 DEBUG 17236 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@55d26b77]
+2022-02-19 09:41:08.277 DEBUG 17236 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:22.490 DEBUG 17236 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:22.491 DEBUG 17236 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:22.492 DEBUG 17236 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:22.492 DEBUG 17236 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@79834f9b]
+2022-02-19 09:41:22.493 DEBUG 17236 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:27.491 DEBUG 17236 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:27.492 DEBUG 17236 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:27.492 DEBUG 17236 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:27.492 DEBUG 17236 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@65697f28]
+2022-02-19 09:41:27.493 DEBUG 17236 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:41.216 DEBUG 17236 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:41.217 DEBUG 17236 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:41.218 DEBUG 17236 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:41.218 DEBUG 17236 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@2438e757]
+2022-02-19 09:41:41.220 DEBUG 17236 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:46.216 DEBUG 17236 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:46.217 DEBUG 17236 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:46.218 DEBUG 17236 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:46.218 DEBUG 17236 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@4dc3b96f]
+2022-02-19 09:41:46.219 DEBUG 17236 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:51.248 DEBUG 17236 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:51.249 DEBUG 17236 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:51.249 DEBUG 17236 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:51.249 DEBUG 17236 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@700ed8f6]
+2022-02-19 09:41:51.250 DEBUG 17236 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:41:56.250 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:41:56.251 DEBUG 17236 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:41:56.251 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:41:56.252 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@17dd71b6]
+2022-02-19 09:41:56.253 DEBUG 17236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-02-19 09:42:01.257 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/server/status", parameters={}
+2022-02-19 09:42:01.258 DEBUG 17236 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to by.unil2.itstep.testSring1.controllers.InfoController#getServerStatus(HttpServletResponse)
+2022-02-19 09:42:01.258 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-19 09:42:01.259 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [by.unil2.itstep.testSring1.controllers.webentity.ServerStatus@5c80fa5c]
+2022-02-19 09:42:01.259 DEBUG 17236 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
