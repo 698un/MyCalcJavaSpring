@@ -1,7 +1,7 @@
 package by.unil2.itstep.testSring1.services;
 
 import by.unil2.itstep.testSring1.dao.model.Client;
-import by.unil2.itstep.testSring1.dao.repository.ClientRepositoryHM;
+import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.models.Product;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
@@ -20,25 +20,20 @@ public class ClientService {
 
     private final CalcOptions calcOpt;
     private final MyLogger myLog;
-    private final ClientService clientService;
-
+    private final ClientRepository clientRep;
 
     //constructor
-    public ClientService(ClientService inpClientService,
+    public ClientService(ClientRepository inpClientRepository,
                          CalcOptions inpCalcOptions,
                          MyLogger inpMyLogger){
-        this.clientService = inpClientService;
+        this.clientRep = inpClientRepository;
         this.calcOpt = inpCalcOptions;
         this.myLog = inpMyLogger;
         }//constructor
 
-
-
-
     //method return new clientKey for new client
     public String getNewClientKey(){
-
-        String newClientKey = ClientRepositoryHM.getRepository().newClient();
+        String newClientKey = clientRep.newClient();
         return newClientKey;
         }//getNewClientKey
 
@@ -62,9 +57,9 @@ public class ClientService {
     public int getClientCount()throws Exception{
 
         try{
-            return ClientRepositoryHM.getRepository().getClientCount();
+            return clientRep.getClientCount();
             } catch (Exception e){ throw new Exception(e.getMessage());}
-        }//getClientCount
+            }//getClientCount
 
 
 

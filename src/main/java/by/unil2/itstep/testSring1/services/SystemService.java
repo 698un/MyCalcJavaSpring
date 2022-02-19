@@ -1,7 +1,7 @@
 package by.unil2.itstep.testSring1.services;
 
 import by.unil2.itstep.testSring1.controllers.webentity.ServerStatus;
-import by.unil2.itstep.testSring1.dao.repository.ClientRepositoryHM;
+import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.models.Product;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;

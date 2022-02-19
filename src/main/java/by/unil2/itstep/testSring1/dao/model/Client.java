@@ -16,12 +16,16 @@ public class Client {
     public String getKey(){
         return this.key;
         }
+    public void  setKey(String inpClientKey){
+        this.key=inpClientKey;
+        }
 
     public Client(){
-
-        this.key = CalcOptions.getOptions().getRandomKey(10);
+        this.key = null;
         this.lastTimeConnect = System.currentTimeMillis();
         }//constructor
+
+
 
     /**
      * This method rewrite lastTimeConnect as now

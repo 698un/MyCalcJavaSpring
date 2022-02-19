@@ -31,3 +31,16 @@
 [INFO]	2022-02-19 10:31:47.364	InfoController	client ask ServerStatus
 [INFO]	2022-02-19 10:31:53.200	ClientController	 New Client ask RootKey
 [INFO]	2022-02-19 10:31:54.315	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 12:58:48.842	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 12:58:48.844	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 12:58:53.830	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 12:58:58.838	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 12:59:00.871	ClientController	New Client ask clientKey
+[DEBUG]	2022-02-19 12:59:05.046	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 12:59:05.049	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 12:59:09.802	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 12:59:14.818	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-19 13:04:47.390	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 13:04:47.392	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 13:04:52.328	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 13:04:53.781	InfoController	client ask ServerStatus

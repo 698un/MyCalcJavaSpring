@@ -16,11 +16,10 @@ package by.unil2.itstep.testSring1.utilits;
 @Component
 public class CalcOptions {
 
+
     //private ConcurrentHashMap<String,String> optList;
 
     private volatile Map<String,String>  optListStr;
-    private volatile Map<String,Integer> optListInt;
-    private volatile Map<String,Boolean> optListBoolean;
 
     private int imageInBufferCount;
 
@@ -43,18 +42,21 @@ public class CalcOptions {
 
     public CalcOptions (){
         optListStr =     new ConcurrentHashMap<String,String>();
-        optListInt =     new ConcurrentHashMap<String,Integer>();
-        optListBoolean = new ConcurrentHashMap<String,Boolean>();
-        this.reLoad();//read fields from file
-
+        this.reLoad();//read config from from file
         this.rootKey = getRandomKey(10);
         }//constructor
 
 
 
-
-    public boolean getBoolean(String name){return optListBoolean.get(name); }
     public String getStr(String name){     return optListStr.get(name);     }
+
+    public boolean getBoolean(String name){
+        //get string value
+        String strValue = optListStr.get(name);
+        //convert this string to boolean
+        Boolean booleanValue = Boolean.valueOf(strValue);
+        return booleanValue;
+        }
 
     public int    getInt(String name){
         String strValue = optListStr.get(name);
@@ -131,21 +133,19 @@ public class CalcOptions {
                 keyStr  = lineString.substring(0,limitIndex);
                 valStr  = lineString.substring(limitIndex+1).trim();
 
-                //add to String map
+
                 optListStr.put(keyStr, valStr);
-                //System.out.println(keyStr+" : "+valStr);
+
 
                 }//next Line
 
             scanner.close();
-        } catch (IOException e) {e.printStackTrace();}
+        } catch (IOException e) {
+           e.printStackTrace();}
 
         System.out.println("Read complette." );
 
         }
-
-
-    //===========SYSTEM_METHODS==============================================
 
 
 
