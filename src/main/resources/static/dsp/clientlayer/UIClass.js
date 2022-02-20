@@ -30,7 +30,7 @@ class UIClass {
 
         //кнопка подключения
         this.cmdUnJoin = createButton('leave from test');
-        this.cmdCreateVideo = createButton('create_video');
+        //this.cmdCreateVideo = createButton('create_video');
 
 
         //this.cmdUnJoin.position(this.UIStatus.left+this.UIStatus.width/2-this.cmdUnJoin.width/2,
@@ -38,7 +38,7 @@ class UIClass {
 
 
         this.cmdUnJoin.mousePressed(cmdUnJoinClick);
-        this.cmdCreateVideo.mousePressed(cmdCreateVideoClick);
+        //this.cmdCreateVideo.mousePressed(cmdCreateVideoClick);
 
         //название произошедшего события
         this.eventName ="none";

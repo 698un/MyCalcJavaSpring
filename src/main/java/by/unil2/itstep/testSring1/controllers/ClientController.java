@@ -9,6 +9,7 @@ import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -74,10 +75,12 @@ public class ClientController {
             Cookie cookie = new Cookie("ClientKey",newRootKey);//create cookie for Root
             response.addCookie(cookie);                              //add cookie to response
             response.setContentType("text/plain");                   // mark response as string
+
+
             return ResponseEntity.ok().body(newRootKey);
 
             } catch (AccessException e) {
-              return new ResponseEntity<Error>(HttpStatus.ACCEPTED);
+              return new ResponseEntity<Error>(HttpStatus.BAD_REQUEST);
 
             } catch (Exception e){
               return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -85,4 +88,18 @@ public class ClientController {
 
         }//Post /clientKey
 
-    }//ClientController
+
+    @PostMapping("/api/exit")
+    public ResponseEntity<String> apiExit(HttpServletResponse response,
+                                          @CookieValue(value="ClientKey") String clientKey){
+
+        myLog.debug("command_api/exit");
+        clientService.userExit(clientKey);
+        return ResponseEntity.ok().body("exit");
+        }//Post /api/exit
+
+
+
+
+
+}//ClientController

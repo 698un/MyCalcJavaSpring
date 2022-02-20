@@ -39,15 +39,23 @@ public class PixelLine {
 
 
 
-    //constructor
+    //constructor without clientKey
     public PixelLine(int inpFrameNum,int inpLineNum) {
         this.status = StatusPixelLine.PROCESS;
         this.frameNum=inpFrameNum;
         this.lineNum=inpLineNum;
-
-        //this.BT = System.currentTimeMillis();
-        //this.DT = this.BT+ TaskService.getService().getLineLifeTime();
         }
+
+    //constructor of clientKey
+    public PixelLine(int inpFrameNum,int inpLineNum,String inpClientKey) {
+        this.status = StatusPixelLine.PROCESS;
+        this.frameNum=inpFrameNum;
+        this.lineNum=inpLineNum;
+        this.clientKey =inpClientKey;
+        this.BT = System.currentTimeMillis();  //mark time of create
+        }
+
+
 
 
     public int getFrameNumber(){   return this.frameNum;  }

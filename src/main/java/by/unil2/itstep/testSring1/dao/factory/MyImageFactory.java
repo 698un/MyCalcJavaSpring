@@ -15,13 +15,13 @@ public class MyImageFactory {
         }
 
 
+        /*
     public MyImage getNewMyImage(int inpWidth,
                          int inpHeight,
                          int inpFrameNum){
-
         MyImage resMyImage = new MyImage(inpWidth,inpHeight,inpFrameNum);
         return resMyImage;
         }
-
+*/
 
 }

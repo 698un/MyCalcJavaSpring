@@ -48,11 +48,14 @@ public class TaskService {
         return imgRep.getSceneKey();
         }//get SceneKey
 
-    public NewTask getNextTask(String clientKey)throws AccessException {
+    public NewTask getNextTask(String clientKey)throws Exception {
 
         //if clientKey not containt in clientRepository
         //throw AccessException
-        if (false==clientRep.inRepository(clientKey)) throw new AccessException("Not actual client");
+        if (false==clientRep.inRepository(clientKey)) {
+            myLog.warn("Wrong clientKey");
+            throw new AccessException("Not actual client");
+            }
 
         myLog.info("Client "+clientKey+" ask new task");
 
@@ -60,15 +63,12 @@ public class TaskService {
         clientRep.updateLastTimeConnect(clientKey);
 
         //return emptyPixelLine from imageRepository
-        PixelLine emptyPixelLine = imgRep.getEmptyPixelLine(clientKey);
-
-        //create newTask for client;
-        NewTask newTask =new  NewTask(emptyPixelLine);
-        newTask.setSceneKey(imgRep.getSceneKey());//mark as SceneKey
-
-
-
-        return newTask;
+        try {
+            PixelLine emptyPixelLine = imgRep.getEmptyPixelLine(clientKey);
+            NewTask newTask =new  NewTask(emptyPixelLine);
+            newTask.setSceneKey(imgRep.getSceneKey());//mark as SceneKey
+            return newTask;
+            }catch (Exception e) {throw e;}
 
         }//get New Task (PixelLine
 
@@ -82,8 +82,8 @@ public class TaskService {
 
         myLog.info("Client "+complettePixelLine.getClientKey()+
                   " send resultat:"+
-                  "frame: "+complettePixelLine.getFrameNumber()+
-                  "line: "+complettePixelLine.getFrameNumber()
+                  " frame: "+complettePixelLine.getFrameNumber()+
+                  " line: "+complettePixelLine.getLineNumber()
                    );
 
         //verify clientKey (security)
@@ -93,16 +93,16 @@ public class TaskService {
                 }
 
 
-
-
         try{
-
+            //get duration of all cicle of calculation and return it
             return imgRep.insertComplettePixelLine(complettePixelLine);
 
-        } catch (Exception e) {
-            myLog.warn(e.getMessage());
-            throw new CalcException(e.getMessage());
-        }
+             } catch (Exception e) {
+                myLog.warn(e.getMessage());
+                throw new CalcException(e.getMessage());
+                }
+
+
     }//get New Task (PixelLine
 
 

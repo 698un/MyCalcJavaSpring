@@ -1,25 +1,21 @@
 package by.unil2.itstep.testSring1.controllers;
 
 
+import by.unil2.itstep.testSring1.controllers.webentity.ErrorMessage;
 import by.unil2.itstep.testSring1.controllers.webentity.NewTask;
 import by.unil2.itstep.testSring1.controllers.webentity.ResultatReport;
-import by.unil2.itstep.testSring1.controllers.webentity.ServerStatus;
 import by.unil2.itstep.testSring1.dao.model.PixelLine;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.exceptions.CalcException;
-import by.unil2.itstep.testSring1.exceptions.IncorrectFormatResultat;
+import by.unil2.itstep.testSring1.exceptions.IncorrectFormatException;
 import by.unil2.itstep.testSring1.services.ClientService;
-import by.unil2.itstep.testSring1.services.SystemService;
 import by.unil2.itstep.testSring1.services.TaskService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
-import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpServletResponse;
 
 @Controller
 public class TaskController {
@@ -51,9 +47,12 @@ public class TaskController {
             return ResponseEntity.ok().body(newTaskForClient);
 
         } catch (AccessException e) {
-            return ResponseEntity.badRequest().body(e.getMessage());
+            myLog.error(e.getMessage());
+            return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));
+
         } catch (Exception e) {
-            return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
+            myLog.error(e.getMessage());
+            return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));
             }
     }//getNewTask
 
@@ -75,13 +74,20 @@ public class TaskController {
             ResultatReport resReport = new ResultatReport(duration);
             return ResponseEntity.ok().body(resReport);
 
-            } catch (IncorrectFormatResultat e) {
-                return ResponseEntity.badRequest().body(e.getMessage());
+            } catch (IncorrectFormatException e) {
+                myLog.error(e.getMessage());
+                return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));
+
+            } catch (AccessException e) {
+                myLog.error(e.getMessage());
+                return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));
 
             } catch (CalcException e) {
-                return ResponseEntity.badRequest().body(e.getMessage());
+                myLog.error(e.getMessage());
+                return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));
 
             } catch (Exception e) {
+                myLog.error(e.getMessage());
                 return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
             }
 
@@ -99,7 +105,7 @@ public class TaskController {
         int byteCountInLine = inpString.length();//count number id body
         int pixelCountInLine =byteCountInLine/3/3;
 
-        short[] pixelArray = new short[byteCountInLine];
+        short[] pixelArray = new short[byteCountInLine/3];
         int index;
 
         StringBuffer byteOneStr = new StringBuffer("");

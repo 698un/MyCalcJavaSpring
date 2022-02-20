@@ -84,8 +84,9 @@ public class CalcOptions {
      * @return  "none" if password not equals
      */
     public String getNewRootKey(String inpPassword)throws AccessException{
-        String rootPassword = this.getStr("rootPassword");//get rootPassword from config
-        if (rootPassword.equals(inpPassword)) {
+
+        String realRootPassword = this.getStr("rootPassword");//get rootPassword from config
+        if (realRootPassword.equals(inpPassword)) {
                     this.rootKey = getRandomKey(10);
                     return this.rootKey;
                     }

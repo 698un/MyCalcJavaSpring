@@ -20,7 +20,8 @@ public class PixelLineFactory {
 
 
     public PixelLine getNewPixelLine(int frameNum,
-                                     int lineNum ){
+                                     int lineNum,
+                                     String clientKey){
 
         PixelLine resPixelLine = new PixelLine(frameNum,lineNum);
         resPixelLine.setBT(System.currentTimeMillis());

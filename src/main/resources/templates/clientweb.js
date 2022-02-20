@@ -139,52 +139,24 @@ function draw() {
 function cmdUnJoinClick(){
     let s1 =  sendAnyHttp("POST","/api/exit","{}");
 
+    alert(s1);
 
+    //if not error then relink to start page
     if (s1.indexOf("error")>-1){
-
-
+           document.location.href = '/index.html';
+           return;
            }
-    //alert(s1);
-    let respJSON = JSON.parse(s1);//весь ответ как json объект
+    //finally return to startPage
+    document.location.href = '/index.html';
+    return;
 
-    //extract error message from response
-    let errorStr = respJSON.errorStr;
 
-    //if error then Message error end exit from function
-    if (errorStr!="none") {
-        alert(errorStr);
-        return;
-         }
-
-    //    alert("exit");
-
-    //If not error then run this function
-    if (errorStr=="none") {
-        alert("exit");
-        //myUser = respJSON.data;
-        document.location.href = '/index.html';
-        }
 
 }//cmdUnJoinClick
 
 
 
 
-
-//function of leave from calculation
-function cmdCreateVideoClick(){
-    let s1 =  sendAnyHttp("POST","/api/createvideo/newvideo.mp4","{}");
-
-    console.log(s1);
-
-
-    if (s1.indexOf("error")>-1){
-        alert(s1);
-        return;
-        }
-
-
-    }//cmdCreateVideo
 
 
 

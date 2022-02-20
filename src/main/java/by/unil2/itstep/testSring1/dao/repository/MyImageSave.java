@@ -24,25 +24,28 @@ public class MyImageSave extends Thread{
 
     private MyImage image1;
     String resFolder;
-    String templateFolder;
+
 
     public MyImageSave(MyImage inpImage,
-                       String pathToFolder,
-                       String pathToTemplate){
+                       String pathToFolder){
 
         this.image1 = inpImage;
         this.resFolder = pathToFolder;
-        this.templateFolder = pathToTemplate;
         }
 
      @Override
      public void run(){
 
 
+        //create folder if not exist
+         new File(resFolder).mkdir();
+         image1.setProcesstatus(ImageStatus.SAVE_PROCESS);
+
 
         try{
-        //Load template format of the imageFile
-        File file = new File(templateFolder);
+
+        //Load template format of the imageFile (from application folder)
+        File file = new File(System.getProperty("user.dir")+File.separator+"null.png");
         BufferedImage source=ImageIO.read(file);
         BufferedImage result = new BufferedImage(image1.getWidth(), image1.getHeight(),source.getType());
 
@@ -108,13 +111,11 @@ public class MyImageSave extends Thread{
         while (fileName.length()<10) fileName.insert(0,"0");
         fileName.append(".png");
 
-
-        // Созраняем результат в новый файл
         File output = new File(resFolder+
                                   File.separator+
                                   fileName);
 
-
+        // Соxраняем результат в новый файл
         ImageIO.write(result, "png", output);
         //System.out.println("Сохранен :"+fileName);
 
@@ -137,13 +138,12 @@ public class MyImageSave extends Thread{
 
             //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             //MyLogger.getLogger().log(LogState.ERROR,sStackTrace);
+            image1.setProcesstatus(ImageStatus.SAVE_ERROR);
+            image1.setErrorMessage(sStackTrace);
 
             }
-
-
-
 
     }//saveToDisc
 
 
-}//MyImage
+}//MyImageSave

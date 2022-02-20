@@ -6,10 +6,10 @@ package by.unil2.itstep.testSring1.dao.model;
 import by.unil2.itstep.testSring1.dao.model.enums.StatusPixelLine;
 import by.unil2.itstep.testSring1.dao.model.enums.ImageStatus;
 import by.unil2.itstep.testSring1.dao.repository.MyImageSave;
+import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.exceptions.CalcException;
+import by.unil2.itstep.testSring1.exceptions.IncorrectFormatException;
 import by.unil2.itstep.testSring1.utilits.MyLocker;
-import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
-
 
 
 public class MyImage{
@@ -23,34 +23,57 @@ public class MyImage{
     private int frameNum;
     private int completteLineCount;
     private ImageStatus processStatus;
+    private long lineLifeTime;
+    private String saveFolder;
+    private String errorMessage;
 
     //Getters and Setters====================================================================
     public int getFrameNum() {
         return this.frameNum;
     }
+    public void  setFrameNum(int inpFrameNum) {  this.frameNum = inpFrameNum; }
+
     public int getWidth() {
         return this.width;
     }
     public int getHeight() {
         return this.height;
     }
-
     public ImageStatus getProcesstatus() {
         return this.processStatus;
     }
     public void        setProcesstatus(ImageStatus inpImageStatus) {  this.processStatus = inpImageStatus;   }
+    public void setLineLifeTime(long inpLineLifeTime){this.lineLifeTime=inpLineLifeTime;}
+
+    public void setErrorMessage(String message){this.errorMessage = message;}//set errorMessage if save not complette
+    public String getErrorMessage(){return this.errorMessage;}//set errorMessage if save not complette
+
+
 
     //=============CONSTRUCTOR=====================================================
-    public MyImage(int inpWidth, int inpHeight, int inpFrameNum) {
-        this.frameNum = inpFrameNum;
-        this.width = inpWidth;
-        this.height = inpHeight;
-        this.pixelLine = new PixelLine[inpHeight];
+    public MyImage(int inpWidth,
+                   int inpHeight,
+                   int inpFrameNum,
+                   long inpLineLifeTime,
+                   String inpSaveFolder) {
+
+        this.frameNum =         inpFrameNum;
+        this.width =            inpWidth;
+        this.height =           inpHeight;
+        this.pixelLine =        new PixelLine[inpHeight];
         this.completeMinIndex = -1;//noLine is complette
-        this.processStatus = ImageStatus.CALC_PROCESS;//image is not complette
+        this.processStatus =    ImageStatus.CALC_PROCESS;//image is not complette
         this.completteLineCount = 0;
+        this.lineLifeTime =     inpLineLifeTime;
+        this.saveFolder =       inpSaveFolder;//mark folder for MyImageSaverProcess
+
+        clear();
         }//MyImage
 
+
+    public void clear(){
+        this.pixelLine = new PixelLine[this.height];
+        }
 
 
     /**this method search next uncalculate line in Image
@@ -60,80 +83,94 @@ public class MyImage{
      */
     public PixelLine getEmptyPixelLine(String clientKey) {
 
-        boolean thisIsComplette = true;//предполагаем что изображжени просчитано
-
-        //начиная с минимально посчитанной ищем свободную
-        //for (int i=this.completeMinIndex+1;i<this.height;i++) {
-
         for (int i = 0; i < this.height; i++) {
-            //If pixelLine not exist then return it index
+
+
+
+            //If pixelLine not exist then return it
             if (pixelLine[i] == null) {
-                    pixelLine[i] = new PixelLine(this.frameNum, i);
-                    pixelLine[i].setClientKey(clientKey);
+                    pixelLine[i] = new PixelLine(this.frameNum, i,clientKey);
+                    pixelLine[i].setDT(pixelLine[i].getBT()+this.lineLifeTime);
                     return pixelLine[i];
                     }
 
+
             //if duration of calculate pixelLine very long
-            if (pixelLine[i] != null &&
-                    pixelLine[i].getStatus() != StatusPixelLine.COMPLETTE &&
-                    pixelLine[i].getDT() < System.currentTimeMillis()) {
-                pixelLine[i] = new PixelLine(this.frameNum, i);
-                pixelLine[i].setClientKey(clientKey);
+            //remark this pixelLine as currentClientKey
+            //and return for calculation to current Client
+            if (pixelLine[i].getStatus() != StatusPixelLine.COMPLETTE &&
+                pixelLine[i].getDT() < System.currentTimeMillis()) {
+
+                pixelLine[i] = new PixelLine(this.frameNum, i,clientKey);
+                pixelLine[i].setDT(pixelLine[i].getBT()+this.lineLifeTime);
                 return pixelLine[i];
-            }
+                }
 
-            //if any pixelLine is notcomplette then check this Is unComplette
-            if (pixelLine[i].getStatus() != StatusPixelLine.COMPLETTE) thisIsComplette = false;
-        }//next i(pixelLine)
+            }//next i(pixelLine)
 
-        //signed completted image
-        if (this.processStatus==ImageStatus.CALC_PROCESS &&
-            thisIsComplette) this.processStatus = ImageStatus.CALC_COMPLETTE;
+        return null; //return null if in this image not contain unCalculated pixelLine
 
-        return null;
         }//getEmptyPixelLine
+
+
+
 
 
     public Long flushComplettePixelLine(PixelLine completteLine) throws Exception {
 
-        boolean error = false;
-
+        //define line in image
         int lineNum = completteLine.getLineNumber();
 
-        if (completteLine.getByteArray().length < this.width * 3) error = true;
-
-        //length if responseString
-        int postLength=completteLine.getByteArray().length;
-
-
-        //Verifing correct size of the array
-        if (error==true) {
-            synchronized(MyLocker.getLocker()) {
-                pixelLine[lineNum] = null;
-                }//synchronized
-            throw new CalcException("InCorrect line");
-             }
-
+        //verify length of pixelLine
+        if (completteLine.getByteArray().length != this.width * 3) {
+               throw new IncorrectFormatException(" length of array");
+               }
 
         //verify clientKey
-        if (pixelLine[lineNum].getClientKey().equals(completteLine.getClientKey())) {
+        if (!pixelLine[lineNum].getClientKey().equals(completteLine.getClientKey())) {
+            throw new CalcException("this line for other client");
+            }
 
-                  long time = System.currentTimeMillis() - pixelLine[lineNum].getBT();
+        //defined duratio af all cicle
+        long time = System.currentTimeMillis() - pixelLine[lineNum].getBT();
 
-                  pixelLine[lineNum] = completteLine;
-                  this.completteLineCount++;
+        //mark pixelLine as COMPLETTE because this pixelLine is correct
+        completteLine.setStatus(StatusPixelLine.COMPLETTE);
 
-                  if (completteLineCount == this.height &&
-                      this.processStatus==ImageStatus.CALC_PROCESS) this.processStatus = ImageStatus.CALC_COMPLETTE; //mark as calculateComplette
+        //injecter this correct picelLine in image
+        pixelLine[lineNum] = completteLine;
 
-                  return (Long)time;
+        //if last PixelLine is empty then return duration and break
+        if (pixelLine[this.height-1]==null) return (Long)time;
 
-            }//IF EQAULS CLIENT
+        //if last PixelLine is unComplette then return duration and break
+        if (pixelLine[this.height-1].getStatus()==StatusPixelLine.PROCESS) return (Long)time;//break calculate in any line is null
+
+
+        //Calculate complette line count:
+        //calculate count o complette pixelline
+        completteLineCount=0;
+        for (int i=0;i<this.height;i++){
+            if (pixelLine[i]==null) return (Long)time;//break calculate in any line is null
+            if (pixelLine[i].getStatus()==StatusPixelLine.COMPLETTE) completteLineCount++;
+            }//next line
+
+        System.out.println("complettedCountLine= "+completteLineCount);
+
+
+        if (completteLineCount >= this.height &&
+            this.processStatus==ImageStatus.CALC_PROCESS) {
+                    this.processStatus = ImageStatus.CALC_COMPLETTE; //mark as calculateComplette
+
+                    MyImageSave imgSaver = new MyImageSave(this,this.saveFolder);
+                    imgSaver.start();
+                    }
 
 
 
 
-        throw new CalcException("InCorrect format");
+        return (Long)time;
+
 
     }//flushComplettePixelLine
 

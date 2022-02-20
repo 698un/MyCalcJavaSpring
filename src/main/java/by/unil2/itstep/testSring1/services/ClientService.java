@@ -58,13 +58,51 @@ public class ClientService {
             } catch (Exception e){ throw new Exception(e.getMessage());}
         }//getClientCount
 
-
+    /**
+     * this method verify clientKey
+     * @param clientKey
+     * @return true if clientKey is correct
+     * @return false if clientKey is NOT correct
+     */
     public Boolean clientIsRegistration(String clientKey){
-
         if (clientRep.inRepository(clientKey)) return true;
         return false;
         }//clientIsRegistration
 
+
+    /**
+     * this method verify rootKey
+     * @param rootKey
+     * @return true if rootKey is correct
+     * @return false if rootKey is NOT correct
+     */
+    public Boolean rootIsRegistration(String rootKey){
+        if (calcOpt.getCurrentRootKey().equals(rootKey)) return true;
+        return false;
+        }//clientIsRegistration
+
+
+    public void userExit(String clientKey){
+
+        try {
+            clientRep.deleteClientByKey(clientKey);
+            myLog.info("Client "+clientKey+" leave of calculation");
+            } catch (Exception e) {}
+
+        try {
+            if (calcOpt.getCurrentRootKey().equals(clientKey)) {
+                    calcOpt.getNewRootKey(calcOpt.getStr("rootPassword"));// Change rootKey to random
+                    myLog.info("root is exit");
+                    }
+            } catch (Exception e){}
+
+
+
+
+
+
+
+        }
 
 
 

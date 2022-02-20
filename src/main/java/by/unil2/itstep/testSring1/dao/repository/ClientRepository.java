@@ -42,7 +42,7 @@ public class ClientRepository{
      */
     public void deleteClientByKey(String inpKey)throws Exception{
 
-        myLog.info("Client "+inpKey+"leave calculation");
+        myLog.info("Client "+inpKey+" deleting from calculation");
         if (clientList.get(inpKey)==null)  {
             myLog.warn("Client "+inpKey+" not CONTAINT");
             throw new Exception("UNKNOW CLIENT");

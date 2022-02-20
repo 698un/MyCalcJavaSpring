@@ -148,22 +148,22 @@ function sendAnyHttp(httpType,cmdKey,dataStr){
     // Сервер должен уметь такой Content-Type принимать и раскодировать
 
     try {
+        //if (httpType="GET") console.log(dataStr+" ");
         xhr.send(dataStr);
+        return xhr.responseText;
         }  catch (err) {
 
             //if (xhr.statusText!="OK") {
+            alert(err.message);//text of error
 
-            alert(xhr.statusText);//text of error
-
-
-            let errorStr = "error "+xhr.status+" "+xhr.statusText;
+            let errorStr = "error "+err.message;//+" "+xhr.statusText;
             console.log(errorStr);
             return errorStr;
             }
 
 
     //return correct response with data from server
-    return xhr.responseText;
+    //return xhr.responseText;
 
 }
 
