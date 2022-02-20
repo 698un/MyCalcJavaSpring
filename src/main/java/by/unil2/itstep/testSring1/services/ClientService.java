@@ -59,6 +59,11 @@ public class ClientService {
         }//getClientCount
 
 
+    public Boolean clientIsRegistration(String clientKey){
+
+        if (clientRep.inRepository(clientKey)) return true;
+        return false;
+        }//clientIsRegistration
 
 
 

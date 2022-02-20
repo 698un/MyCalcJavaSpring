@@ -65,9 +65,9 @@ public class TaskController {
                                           @RequestBody String pixArrayStr,
                                           @CookieValue(value="ClientKey") String clientKey){
 
-
+        //representatoin resultat in object
         PixelLine resPixelLine = new PixelLine(frameNum,lineNum);  //create object of resultat
-        resPixelLine.setByteArray(getArrayFromString(pixArrayStr));//get pixelArray from body
+        resPixelLine.setByteArray(getArrayFromString(pixArrayStr));//set pixelArray from body of request
         resPixelLine.setClientKey(clientKey);                      //mark as clientKey
 
         try {
@@ -85,14 +85,11 @@ public class TaskController {
                 return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
             }
 
-
-
-
     }//postResultat
 
 
     /**
-     * This method converter string to array of numbers
+     * This method converter string from body of request to array of numbers
      * @param inpString
      * @return short[]  - array of numbers
      */

@@ -3022,3 +3022,2185 @@
 [INFO]	2022-02-19 20:06:46.361	TaskService	Client fvujhabhdf ask new task
 [INFO]	2022-02-19 20:06:46.367	TaskService	Client fvujhabhdf send resultat:frame: 0line: 0
 [INFO]	2022-02-19 20:06:46.373	TaskService	Client fvujhabhdf ask new task
+[DEBUG]	2022-02-19 20:11:32.694	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 20:11:32.698	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 20:11:34.068	ClientController	New Client ask clientKey
+[INFO]	2022-02-19 20:11:35.402	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 20:11:35.414	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:36.028	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:36.036	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:36.708	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:36.718	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:37.054	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:37.068	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:37.289	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:37.303	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:37.471	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:37.485	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:37.652	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:37.671	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:37.800	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:37.809	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:37.935	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:37.951	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.052	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.068	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.169	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.184	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.270	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.284	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.371	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.386	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.470	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.484	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.569	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.585	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.654	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.668	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.737	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.752	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.819	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.834	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.902	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:38.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:38.985	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.001	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.068	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.084	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.136	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.151	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.203	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.218	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.268	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.284	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.335	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.401	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.467	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.484	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.535	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.553	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.602	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.670	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.688	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.734	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.751	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.802	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.867	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.934	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:39.951	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:39.985	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.002	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.035	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.051	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.085	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.101	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.134	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.151	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.184	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.202	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.236	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.252	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.285	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.301	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.334	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.385	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.401	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.435	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.451	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.485	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.501	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.535	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.551	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.586	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.604	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.635	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.651	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.685	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.704	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.751	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.801	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.818	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.851	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.867	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.901	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:40.952	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:40.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.001	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.052	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.067	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.102	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.119	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.151	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.201	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.251	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.267	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.301	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.352	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.369	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.401	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.451	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.501	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.552	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.567	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.601	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.651	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.667	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.701	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.754	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.787	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.803	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.825	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.841	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.851	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.869	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.902	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.935	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.951	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:41.967	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:41.984	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.002	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.035	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.051	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.068	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.084	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.102	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.117	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.134	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.151	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.167	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.184	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.201	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.235	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.251	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.268	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.284	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.302	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.334	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.367	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.384	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.401	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.436	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.451	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.469	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.484	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.502	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.534	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.551	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.567	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.584	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.601	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.634	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.651	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.668	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.684	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.702	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.734	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.752	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.767	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.801	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.834	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.851	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.868	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.902	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.935	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:42.967	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:42.984	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.034	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.067	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.084	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.100	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.117	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.135	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.151	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.168	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.184	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.200	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.234	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.267	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.284	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.301	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.318	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.334	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.368	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.385	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.401	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.434	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.467	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.484	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.500	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.535	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.568	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.584	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.601	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.634	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.649	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.668	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.684	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.700	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.718	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.737	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.767	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.784	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.800	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.835	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.851	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.869	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.900	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.935	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.951	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:43.967	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:43.984	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.001	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.034	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.067	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.100	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.117	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.136	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.168	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.184	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.201	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.234	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.249	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.267	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.300	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.334	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.368	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.384	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.400	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.418	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.434	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.467	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.500	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.516	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.534	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.568	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.586	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.601	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.634	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.667	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.700	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.716	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.734	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.767	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.784	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.801	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.835	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.868	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.900	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.934	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.949	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:44.967	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:44.984	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.034	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.067	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.084	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.100	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.134	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.167	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.184	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.200	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.235	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.267	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.284	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.300	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.334	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.367	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.400	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.434	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.467	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.484	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.501	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.534	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.567	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.584	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.600	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.634	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.667	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.684	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.701	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.735	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.767	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.800	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.835	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.850	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.869	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:45.900	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:45.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.270	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.287	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.301	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.350	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.400	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.453	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.467	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.501	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.518	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.552	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.568	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.601	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.651	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.667	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.702	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.720	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.752	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.800	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.850	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.867	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.901	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.950	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:47.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:47.984	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.018	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.050	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.083	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.099	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.117	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.132	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.150	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.184	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.218	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.250	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.267	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.284	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.317	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.332	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.350	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.384	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.417	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.450	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.467	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.483	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.499	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.517	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.550	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.567	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.583	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.618	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.650	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.668	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.684	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.701	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.717	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.750	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.783	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.817	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.850	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.867	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.884	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.917	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.932	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.950	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:48.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:48.983	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.018	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.051	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.067	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.086	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.118	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.150	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.183	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.217	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.234	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.251	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.285	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.301	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.317	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.350	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.383	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.417	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.434	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.452	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.468	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.484	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.519	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.550	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.584	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.599	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.617	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.632	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.650	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.667	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.684	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.701	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.718	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.734	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.752	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.784	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.818	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.834	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.851	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.867	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.885	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.901	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.918	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.934	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.951	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:49.968	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:49.984	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.001	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.018	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.052	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.068	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.084	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.101	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.118	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.134	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.152	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.185	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.201	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.218	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.234	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.253	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.267	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.285	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.301	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.319	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.336	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.352	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.368	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.385	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.402	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.418	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.451	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.467	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.484	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.518	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.551	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.567	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.585	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.601	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.618	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.651	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.667	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.684	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.718	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.734	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.752	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.768	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.785	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.801	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.818	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.834	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.851	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.868	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.885	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.901	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.917	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.934	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.957	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:50.969	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:50.985	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.001	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.017	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.034	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.051	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.084	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.101	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.117	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.134	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.151	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.184	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.201	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.217	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.234	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.251	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.267	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.284	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.317	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.350	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.384	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.417	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.434	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.451	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.468	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.484	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.517	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.551	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.584	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.617	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.651	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.667	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.684	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.717	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.750	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.785	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.817	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.844	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.867	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.901	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.934	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:51.967	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:51.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.034	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.067	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.084	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.100	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.117	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.134	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.167	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.200	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.234	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.251	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.267	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.301	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.334	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.367	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.400	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.434	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.468	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.484	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.500	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.534	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.567	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.600	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.635	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.667	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.684	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.701	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.735	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.767	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.800	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.834	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.850	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.867	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.901	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.934	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.951	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:52.967	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:52.984	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.034	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.067	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.100	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.117	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.134	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.168	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.201	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.234	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.267	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.300	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.324	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.341	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.356	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.384	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.389	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.406	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.422	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.438	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.455	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.505	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.522	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.535	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.541	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.556	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.567	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.573	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.584	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.590	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.606	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.623	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.655	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.671	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.706	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.722	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.738	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.755	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.772	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.789	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.807	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.822	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.840	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.850	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.871	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.922	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.955	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.973	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:53.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:53.989	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.006	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.023	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.055	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.071	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.088	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.122	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.138	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.155	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.173	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.189	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.206	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.222	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.239	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.272	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.288	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.305	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.338	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.389	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.406	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.417	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.423	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.434	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.440	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.455	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.505	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.516	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.521	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.538	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.572	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.584	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.589	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.606	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.623	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.640	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.657	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.672	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.705	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.716	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.721	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.738	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.749	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.754	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.771	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.789	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.807	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.822	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.839	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.850	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.872	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.889	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.904	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.921	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.949	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.954	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.971	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:54.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:54.994	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.001	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.007	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.022	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.038	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.056	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.068	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.074	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.084	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.091	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.121	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.138	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.154	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.171	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.222	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.239	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.292	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.299	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.306	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.312	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.318	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.327	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.336	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.341	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.349	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.371	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.388	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.423	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.438	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.456	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.467	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.490	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.505	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.516	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.521	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.538	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.549	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.554	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.571	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.588	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.599	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.604	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.623	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.639	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.655	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.673	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.689	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.705	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.723	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.739	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.756	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.773	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.789	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.801	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.806	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.822	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.840	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.872	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.884	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.889	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.922	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.949	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.954	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.971	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:55.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:55.989	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.006	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.022	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.034	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.056	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.067	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.072	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.089	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.122	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.139	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.156	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.171	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.199	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.204	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.239	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.267	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.272	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.289	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.305	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.324	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.339	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.371	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.388	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.404	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.421	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.438	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.455	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.506	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.522	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.539	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.549	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.572	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.588	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.599	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.604	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.621	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.649	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.656	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.672	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.689	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.699	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.706	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.722	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.739	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.756	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.772	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.788	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.799	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.824	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.834	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.840	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.854	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.872	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.890	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.922	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.939	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.955	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.971	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:56.989	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:56.999	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.004	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.021	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.038	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.054	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.072	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.089	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.122	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.134	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.139	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.156	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.167	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.172	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.199	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.204	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.239	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.249	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.254	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.271	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.288	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.306	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.339	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.356	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.367	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.388	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.404	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.421	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.438	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.454	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.471	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.489	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.506	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.522	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.539	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.567	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.573	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.590	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.599	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.605	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.621	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.655	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.671	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.706	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.723	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.739	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.756	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.772	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.788	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.821	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.838	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.854	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.871	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.899	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.917	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.923	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.949	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.956	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.972	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:57.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:57.992	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.001	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.008	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.021	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.038	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.054	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.071	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.088	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.099	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.104	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.122	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.139	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.155	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.172	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.189	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.239	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.271	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.288	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.299	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.306	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.334	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.339	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.389	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.422	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.437	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.456	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.471	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.499	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.504	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.516	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.521	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.539	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.556	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.572	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.589	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.605	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.617	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.622	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.649	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.654	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.672	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.699	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.705	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.716	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.722	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.740	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.756	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.772	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.789	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.824	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.839	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.854	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.871	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.899	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.904	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.921	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.955	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.973	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:58.990	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:58.999	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.005	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.022	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.055	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.071	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.088	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.121	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.138	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.155	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.172	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.222	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.238	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.255	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.271	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.282	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.287	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.299	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.304	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.321	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.332	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.337	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.389	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.422	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.435	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.439	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.455	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.467	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.473	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.499	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.504	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.516	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.521	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.532	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.537	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.549	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.573	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.588	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.605	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.622	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.658	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.668	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.673	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.682	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.706	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.723	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.732	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.737	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.749	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.754	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.771	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.788	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.806	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.817	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.822	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.839	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.850	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.856	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.867	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.872	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.899	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.904	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.921	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.932	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.937	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.949	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.954	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.971	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:11:59.982	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:11:59.989	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.006	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.022	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.032	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.076	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.085	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.091	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.099	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.105	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.112	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.124	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.129	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.154	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.171	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.189	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.206	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.217	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.223	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.239	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.267	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.273	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.289	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.306	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.338	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.382	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.387	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[DEBUG]	2022-02-19 20:12:00.416	ClientRepository	clear old Clients...
+[INFO]	2022-02-19 20:12:00.417	InfoController	client ask ServerStatus
+[INFO]	2022-02-19 20:12:00.421	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.427	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.438	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.456	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.467	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.482	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.499	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.505	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.518	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.523	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.532	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.537	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.549	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.571	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.582	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.587	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.599	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.604	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.623	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.633	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.656	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.673	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.705	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.716	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.721	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.732	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.737	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.749	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.755	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.771	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.782	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.787	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.799	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.823	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.839	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.873	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.922	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.932	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.949	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.955	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.971	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.982	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:00.990	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:00.999	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.004	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.022	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.056	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.067	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.072	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.089	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.117	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.122	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.132	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.137	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.154	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.172	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.199	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.204	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.232	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.238	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.272	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.288	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.305	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.332	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.338	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.358	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.371	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.382	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.387	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.421	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.432	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.437	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.455	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.483	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.506	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.517	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.522	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.532	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.538	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.549	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.554	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.572	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.582	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.587	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.599	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.604	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.621	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.632	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.637	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.649	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.657	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.673	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.683	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.689	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.699	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.706	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.717	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.722	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.739	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.749	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.756	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.772	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.782	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.788	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.799	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.821	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.832	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.837	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.872	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.882	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.900	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.922	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.939	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.955	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.972	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.982	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:01.988	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:01.999	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.004	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.021	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.032	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.037	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.055	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.073	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.083	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.089	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.100	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.123	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.138	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.150	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.156	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.172	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.184	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.189	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.199	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.232	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.237	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.249	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.255	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.271	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.283	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.288	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.306	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.317	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.332	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.338	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.351	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.356	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.388	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.399	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.421	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.432	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.437	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.454	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.471	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.482	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.500	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.506	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.516	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.522	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.532	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.538	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.573	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.589	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.606	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.622	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.632	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.637	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.649	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.655	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.671	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.682	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.688	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.700	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.706	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.716	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.722	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.733	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.738	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.749	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.755	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.767	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.772	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.788	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.799	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.804	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.821	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.832	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.837	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.849	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.871	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.882	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.887	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.899	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.905	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.916	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.922	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.933	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.938	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.956	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.967	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.972	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:02.990	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:02.999	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.005	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.017	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.023	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.032	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.037	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.055	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.066	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.071	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.082	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.087	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.099	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.104	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.116	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.122	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.133	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.138	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.155	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.172	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.200	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.232	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.238	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.249	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.255	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.265	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.271	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.282	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.287	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.299	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.304	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.316	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.322	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.333	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.339	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.356	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.365	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.372	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.388	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.406	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.421	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.432	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.438	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.449	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.454	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.465	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.482	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.487	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.499	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.505	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.515	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.520	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.533	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.540	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.550	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.566	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.571	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.582	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.589	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.605	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.621	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.632	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.638	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.649	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.655	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.665	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.670	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.682	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.687	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.699	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.704	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.715	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.720	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.732	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.738	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.750	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.756	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.766	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.771	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.782	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.788	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.821	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.838	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.851	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.856	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.871	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.882	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.887	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.899	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.904	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.915	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.921	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.932	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.937	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.950	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.955	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.966	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.972	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:03.983	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:03.989	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.005	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.022	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.033	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.049	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.055	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.065	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.070	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.082	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.087	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.099	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.115	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.121	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.132	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.137	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.156	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.166	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.171	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.183	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.188	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.199	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.216	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.233	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.238	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.250	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.255	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.265	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.271	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.282	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.287	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.299	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.305	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.315	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.320	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.332	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.337	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.349	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.366	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.371	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.383	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.389	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.400	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.405	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.416	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.421	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.433	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.439	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.450	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.455	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.466	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.472	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.482	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.488	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.499	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.506	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.515	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.520	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.532	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.537	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.549	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.555	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.565	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.571	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.583	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.589	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.600	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.605	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.616	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.622	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.635	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.640	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.650	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.655	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.666	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.672	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.684	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.690	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.699	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.705	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.715	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.720	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.732	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.737	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.749	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.754	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.765	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.770	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.783	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.789	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.800	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.805	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.816	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.821	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.833	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.839	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.850	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.855	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.866	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.872	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.883	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.888	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.927	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.934	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.940	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.947	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.953	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.968	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:04.973	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:04.979	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.005	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.016	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.021	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.032	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.039	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.050	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.055	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.065	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.071	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.082	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.089	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.099	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.105	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.115	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.120	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.132	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.137	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.149	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.154	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.165	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.170	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.182	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.187	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.199	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.205	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.215	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.221	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.232	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.238	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.249	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.256	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.266	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.272	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.282	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.288	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.300	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.306	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.315	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.320	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.332	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.338	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.350	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.355	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.365	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.370	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0
+[INFO]	2022-02-19 20:12:05.382	TaskService	Client gsghytxtdp ask new task
+[INFO]	2022-02-19 20:12:05.389	TaskService	Client gsghytxtdp send resultat:frame: 0line: 0

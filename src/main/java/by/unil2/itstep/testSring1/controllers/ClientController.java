@@ -48,15 +48,17 @@ public class ClientController {
         //get client key from service for New Client
         try {
             newClientKey = clientService.getNewClientKey();
+            Cookie cookie = new Cookie("ClientKey",newClientKey);//create cookie
+            response.addCookie(cookie);                                //add cookie to response
+            response.setContentType("text/plain");// mark response as string
+            return ResponseEntity.ok().body(newClientKey);
+
             } catch(Exception e) {
               myLog.error("Get New ClientKey"+e.getMessage());
               return ResponseEntity.status(500).body("Internal Error");
               }
 
-        Cookie cookie = new Cookie("ClientKey",newClientKey);//create cookie
-        response.addCookie(cookie);                                //add cookie to response
-        response.setContentType("text/plain");// mark response as string
-        return ResponseEntity.ok().body(newClientKey);
+
         }//Post /clientKey
 
 

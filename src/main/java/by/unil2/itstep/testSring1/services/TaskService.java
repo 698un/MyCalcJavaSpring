@@ -78,7 +78,7 @@ public class TaskService {
      * @return duration time from send to client to write resultat
      * @throws Exception
      */
-    public Long postCompletteTask(PixelLine complettePixelLine) throws Exception{
+    public Long postCompletteTask(PixelLine complettePixelLine) throws AccessException,Exception{
 
         myLog.info("Client "+complettePixelLine.getClientKey()+
                   " send resultat:"+
@@ -86,14 +86,18 @@ public class TaskService {
                   "line: "+complettePixelLine.getFrameNumber()
                    );
 
+        //verify clientKey (security)
+        if (!clientRep.inRepository(complettePixelLine.getClientKey())) {
+                myLog.warn("Wrong clientKey");
+                throw new AccessException("client not actual");
+                }
 
 
 
-        try {
 
-            synchronized(MyLocker.getLocker()) {
-                return imgRep.insertComplettePixelLine(complettePixelLine);
-            }//synchronized
+        try{
+
+            return imgRep.insertComplettePixelLine(complettePixelLine);
 
         } catch (Exception e) {
             myLog.warn(e.getMessage());

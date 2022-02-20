@@ -1,0 +1,1132 @@
+[DEBUG]	2022-02-20 11:23:25.253	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:23:25.258	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:23:30.202	ClientController	New Client ask clientKey
+[INFO]	2022-02-20 11:23:31.958	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:23:31.967	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:32.566	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:32.575	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:32.810	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:32.823	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.010	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.022	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.174	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.189	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.324	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.339	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.458	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.473	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.574	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.589	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.690	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.706	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.792	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.806	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:33.892	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:33.907	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.020	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.036	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.121	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.135	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.204	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.235	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.308	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.323	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.390	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.406	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.474	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.489	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.557	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.573	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.641	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.656	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.707	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.722	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.773	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.790	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.840	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.855	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.906	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.922	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:34.974	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:34.991	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.041	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.055	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.106	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.122	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.174	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.190	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.240	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.256	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.306	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.322	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.373	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.389	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.441	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.455	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.523	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.539	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.591	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.608	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.641	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.656	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.691	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.705	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.740	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.755	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.791	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.806	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.840	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.855	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.890	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.905	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.939	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:35.955	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:35.990	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.005	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.040	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.057	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.090	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.105	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.141	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.155	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.191	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.206	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.241	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.256	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.291	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.309	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.340	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.355	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.389	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.405	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.439	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.455	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.490	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.506	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.540	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.555	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.589	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.605	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.639	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.655	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.691	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.706	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.739	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.755	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.790	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.805	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.839	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.855	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.889	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.905	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.940	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:36.956	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:36.990	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.005	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.040	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.055	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.089	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.105	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.140	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.156	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.190	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.205	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.239	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.255	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.289	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.305	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.339	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.356	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.373	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.389	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.406	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.422	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.440	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.455	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.472	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.489	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.506	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.522	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.539	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.555	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.573	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.589	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.605	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.622	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:37.640	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:37.655	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:38.700	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:38.723	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:38.756	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:38.771	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:38.822	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:38.838	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:38.888	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:38.906	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:38.956	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:38.973	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.022	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.038	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.089	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.105	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.156	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.172	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.222	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.238	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.323	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.338	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.389	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.405	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.456	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.472	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.522	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.538	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.590	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.606	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.640	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.656	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.690	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.706	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.740	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.756	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.790	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.806	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.840	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.856	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.892	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.909	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.943	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:39.959	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:39.993	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.006	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.041	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.057	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.091	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.109	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.141	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.157	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.200	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.217	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.258	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.277	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.308	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.324	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.358	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.374	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.407	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.424	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.477	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.491	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.550	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.564	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.627	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.677	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.713	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.728	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.760	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.774	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.808	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.824	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.857	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.873	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.909	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.930	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:40.961	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:40.980	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.023	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.039	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.073	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.089	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.123	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.139	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.175	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.190	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.225	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.239	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.273	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.288	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.323	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.339	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.373	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.389	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.423	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.439	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.473	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.489	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.523	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.539	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.573	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.589	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.607	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.623	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.640	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.656	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.673	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.689	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.706	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.723	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.739	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.755	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.773	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.788	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.806	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.823	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.840	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.856	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.874	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.889	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.907	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.922	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.939	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.955	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:41.973	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:41.989	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.006	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:42.022	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.040	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:42.056	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.074	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:42.089	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.109	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:42.123	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.139	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:42.156	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.173	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:23:42.188	TaskService	Client phvbeiqibb ask new task
+[INFO]	2022-02-20 11:23:42.206	TaskService	Client phvbeiqibb send resultat:frame: 0line: 0
+[DEBUG]	2022-02-20 11:23:42.377	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:23:42.378	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:24:07.389	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:24:07.390	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:24:32.406	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:24:32.407	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:24:54.865	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:24:54.867	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:25:19.825	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:25:19.827	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:38:53.965	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:38:53.966	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:39:05.485	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:39:05.487	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:39:06.488	ClientController	New Client ask clientKey
+[DEBUG]	2022-02-20 11:40:56.534	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:40:56.535	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:40:58.015	ClientController	New Client ask clientKey
+[INFO]	2022-02-20 11:41:03.100	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:41:28.114	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:41:28.115	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:41:47.563	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:41:47.565	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:41:49.173	ClientController	New Client ask clientKey
+[DEBUG]	2022-02-20 11:42:41.268	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:42:41.270	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:42:44.097	ClientController	New Client ask clientKey
+[INFO]	2022-02-20 11:42:47.062	InfoController	client ask ServerStatus
+[INFO]	2022-02-20 11:42:47.072	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:47.683	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:47.692	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:47.940	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:47.962	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.148	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.162	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.315	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.327	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.462	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.477	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.605	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.627	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.730	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.745	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.847	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.862	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:48.947	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:48.962	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.056	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.077	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.163	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.178	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.262	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.277	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.347	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.362	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.439	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.461	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.529	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.545	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.613	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.628	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.697	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.711	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.780	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.794	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.845	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.861	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.913	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.927	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:49.979	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:49.994	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.055	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.077	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.129	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.144	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.195	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.210	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.261	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.277	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.328	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.345	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.396	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.411	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.461	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.477	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.527	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.544	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.595	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.610	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.660	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.677	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.727	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.744	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.778	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.794	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.828	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.845	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.890	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.910	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.945	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:50.960	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:50.994	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.010	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.045	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.060	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.094	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.110	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.144	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.160	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.194	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.210	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.245	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.260	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.295	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.311	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.345	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.360	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.394	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.410	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.445	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.460	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.496	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.511	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.545	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.561	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.594	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.610	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.644	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.661	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.695	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.710	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.745	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.760	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.795	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.810	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.844	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.860	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.894	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.910	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.944	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:51.960	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:51.995	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.010	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.044	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.060	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.094	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.110	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.145	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.161	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.195	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.211	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.245	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.260	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.295	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.310	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.344	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.360	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.394	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.410	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.445	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.460	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.494	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.510	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.527	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.544	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.560	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.577	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.595	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.621	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.645	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.660	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.677	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.694	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.711	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.727	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.745	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.760	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.778	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.795	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.811	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.827	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.845	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.860	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.879	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.894	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.911	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.927	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.945	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.960	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:52.977	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:52.994	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.011	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.027	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.045	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.060	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.078	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.094	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.111	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.127	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.145	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.159	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.177	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.193	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.211	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.228	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.245	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.260	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.278	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.294	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.311	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.327	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.345	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.360	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.377	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.394	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.411	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.427	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.444	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.460	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.479	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.495	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.512	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.528	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.545	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.561	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.578	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.594	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.611	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.627	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.646	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.661	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.679	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.695	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.711	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.728	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.745	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.761	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.778	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.794	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.811	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.828	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.845	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.861	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.878	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.895	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.912	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.928	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.945	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.961	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:53.978	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:53.995	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.012	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.028	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.046	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.060	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.079	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.095	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.112	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.128	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.145	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.161	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.178	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.193	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.211	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.228	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.244	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.261	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.278	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.294	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.311	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.328	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.345	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.361	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.379	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.393	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.411	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.428	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.444	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.460	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.479	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.494	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.511	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.528	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.544	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.561	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.578	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.594	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.611	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.628	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.644	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.661	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.679	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.694	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.712	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.738	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.762	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.778	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.794	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.811	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.828	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.843	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.861	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.878	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.894	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.911	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.929	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.944	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.962	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:54.978	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:54.996	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.011	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.028	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.043	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.061	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.078	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.094	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.111	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.128	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.144	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.161	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.178	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.195	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.211	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.229	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.244	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.261	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.278	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.295	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.311	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.328	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.344	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.362	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.378	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.394	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.411	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.428	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.444	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.461	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.477	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.494	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.510	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.528	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.543	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.561	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.578	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.594	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.611	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.629	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.644	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.662	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.678	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.694	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.711	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.728	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.744	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.761	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.778	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.795	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.811	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.828	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.845	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.862	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.879	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.894	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.916	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.950	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:55.961	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:55.990	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.008	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.017	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.028	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.044	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.061	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.079	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.094	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.111	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.128	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.145	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.161	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.178	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.193	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.212	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.228	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.244	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.261	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.278	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.294	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.312	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.328	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.344	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.362	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.378	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.394	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.412	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.428	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.445	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.461	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.479	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.494	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.511	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.528	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.544	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.561	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.578	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.593	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.611	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.628	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.644	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.661	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.678	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.694	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.711	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.728	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.744	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.761	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.778	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.794	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.811	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.828	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.844	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.861	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.879	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.894	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.912	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.928	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.944	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.960	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:56.978	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:56.994	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.011	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.027	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.044	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.061	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.079	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.094	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.111	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.128	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.144	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.161	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.178	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.194	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.211	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.228	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.244	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.261	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.278	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.294	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.311	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.328	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.345	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.361	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.378	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.394	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.412	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.428	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.444	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.461	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.478	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.494	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.512	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.528	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.544	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.561	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.578	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.594	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.611	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.628	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.644	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.661	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.678	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.694	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.711	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.728	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.744	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.761	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.779	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.794	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.811	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.828	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.844	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.860	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.878	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.894	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.899	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.911	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.916	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.928	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.938	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.944	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.953	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.961	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.967	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.978	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:57.987	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:57.994	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.011	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.016	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.028	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.036	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.044	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.049	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.061	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.067	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.078	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.083	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.094	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.100	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.111	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.116	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.128	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.133	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.145	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.155	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.164	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.174	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.182	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.192	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.198	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.209	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.216	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.227	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.242	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.249	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.259	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.265	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.271	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.277	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.293	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.299	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.310	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.316	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.327	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.332	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.344	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.355	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.363	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.374	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.381	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.392	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.398	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.407	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.413	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.420	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.427	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.433	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.444	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.450	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.461	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.466	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.477	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.482	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.494	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.500	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.511	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.516	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.527	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.532	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.544	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.549	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.562	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.570	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.576	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.583	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.594	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.600	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.611	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.620	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.626	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.633	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.644	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.650	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.660	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.667	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.676	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.682	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.693	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.699	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.710	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.717	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.737	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.743	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.754	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.760	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.772	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.778	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.788	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.795	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.805	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.812	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.822	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.829	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.836	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.843	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.852	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.858	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.869	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.877	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.885	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.890	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.902	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.907	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.919	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.925	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.935	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.940	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.952	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.957	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.968	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.974	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:58.985	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:58.993	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.002	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.007	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.018	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.025	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.035	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.041	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.052	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.058	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.068	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.075	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.085	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.091	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.101	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.107	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.118	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.124	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.135	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.140	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.152	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.157	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.168	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.174	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.185	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.191	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.202	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.208	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.218	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.224	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.235	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.241	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.253	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.258	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.268	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.275	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.285	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.290	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.301	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.307	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.318	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.324	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.335	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.340	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.351	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.357	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.369	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.375	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.385	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.391	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.402	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.408	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.418	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.425	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.435	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.441	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.452	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.457	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.468	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.475	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.485	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.492	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.501	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.507	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.518	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.523	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.535	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.540	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.551	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.557	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.568	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.573	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.585	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.590	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.602	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.608	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.619	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.625	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.635	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.641	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.652	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.659	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.669	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.675	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.685	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.692	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.702	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.707	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.718	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.723	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.735	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.740	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.753	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.759	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.768	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.773	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.785	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.791	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.801	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.808	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.819	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.825	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.835	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.841	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.851	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.858	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.869	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.874	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.885	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.891	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.902	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.908	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.918	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.924	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.935	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.940	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.951	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.957	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.968	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.974	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:42:59.985	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:42:59.994	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.002	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.008	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.018	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.024	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.035	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.041	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.052	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.057	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.068	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.075	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.085	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.091	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.102	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.108	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.118	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.123	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.135	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.140	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.151	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.157	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.168	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.174	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.185	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.190	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.201	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.207	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.218	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.225	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.235	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.241	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.252	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.258	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.268	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.274	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.285	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.291	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.302	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.308	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.319	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.326	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.335	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.340	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.352	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.357	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.368	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.374	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.385	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.390	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.402	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.409	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[INFO]	2022-02-20 11:43:00.423	TaskService	Client xunfahhsjk ask new task
+[INFO]	2022-02-20 11:43:00.428	TaskService	Client xunfahhsjk send resultat:frame: 0line: 0
+[DEBUG]	2022-02-20 11:43:00.596	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:43:00.597	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:43:25.669	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:43:25.670	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:43:51.281	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:43:51.282	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:44:11.566	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:44:11.569	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:44:30.897	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:44:30.899	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:44:55.911	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:44:55.913	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:45:20.926	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:45:20.927	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:45:45.927	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:45:45.929	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:46:10.929	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:46:10.931	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:46:35.928	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:46:35.929	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:47:00.931	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:47:00.932	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:47:25.931	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:47:25.932	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:47:50.933	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:47:50.935	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:48:15.933	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:48:15.935	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:48:40.933	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:48:40.934	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:49:05.935	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:49:05.936	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:49:30.953	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:49:30.955	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:49:55.953	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:49:55.954	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:50:20.954	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:50:20.956	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:50:45.957	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:50:45.958	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:51:10.958	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:51:10.959	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:51:35.957	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:51:35.959	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:52:00.959	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:52:00.960	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:52:25.959	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:52:25.960	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:52:50.961	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:52:50.962	InfoController	client ask ServerStatus
+[DEBUG]	2022-02-20 11:53:15.963	ClientRepository	clear old Clients...
+[INFO]	2022-02-20 11:53:15.965	InfoController	client ask ServerStatus
