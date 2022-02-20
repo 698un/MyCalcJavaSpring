@@ -117,7 +117,11 @@ public class ImageRepository {
         int i;
         for (int j = sourceIndex; j < sourceIndex+imgCountInBuffer; j++) {
 
-            i=j%imgCountInBuffer;
+            i=j;
+            if (i>imgCountInBuffer-1) i=(i-imgCountInBuffer+1);
+
+
+            i=Math.random()*
 
             //Loked image because search by all pixelLine in current image
             synchronized (MyLocker.getLocker()) {
@@ -192,8 +196,10 @@ public class ImageRepository {
         newFrameNum++;
         myLog.trace("CreateImage "+newFrameNum+" FOR CALCULATION");
 
-        sourceIndex++;
-        sourceIndex=sourceIndex%imgCountInBuffer;
+        if (index==sourceIndex) {
+            sourceIndex++;
+            if (sourceIndex>imgCountInBuffer-1) sourceIndex = 0;
+            }
 
 
 
