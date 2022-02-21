@@ -217,7 +217,7 @@ public class ImageRepository {
         //flush to found image line of resultat
         try {
 
-            //clearing buffer if lastLine in image
+            //clearing buffer if lastLine in flush in image
             if (complettePixelLine.getLineNumber()==this.imgHeight-1) clearCompletteImagesFromBuffer();
 
             return currentImage.flushComplettePixelLine(complettePixelLine);

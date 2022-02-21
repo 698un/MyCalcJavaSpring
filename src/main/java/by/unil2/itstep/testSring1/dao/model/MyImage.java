@@ -155,9 +155,6 @@ public class MyImage{
             if (pixelLine[i].getStatus()==StatusPixelLine.COMPLETTE) completteLineCount++;
             }//next line
 
-        System.out.println("complettedCountLine= "+completteLineCount);
-
-
         if (completteLineCount >= this.height &&
             this.processStatus==ImageStatus.CALC_PROCESS) {
                     this.processStatus = ImageStatus.CALC_COMPLETTE; //mark as calculateComplette

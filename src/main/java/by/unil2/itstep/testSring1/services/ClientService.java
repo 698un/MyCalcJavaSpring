@@ -50,6 +50,16 @@ public class ClientService {
             }
     }//getNewRootKey
 
+    /**
+     * This method verify rootKey
+     * @param inpRootKey
+     * @return  true or false
+     */
+    public boolean isRootKey(String inpRootKey){
+        if (calcOpt.getCurrentRootKey().equals(inpRootKey)) return true;
+        return false;
+        }
+
 
     public int getClientCount()throws Exception{
 
