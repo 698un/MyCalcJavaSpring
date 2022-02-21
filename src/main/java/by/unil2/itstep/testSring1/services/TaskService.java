@@ -94,8 +94,10 @@ public class TaskService {
 
 
         try{
-            //get duration of all cicle of calculation and return it
-            return imgRep.insertComplettePixelLine(complettePixelLine);
+
+                //get duration of all cicle of calculation and return it
+                return imgRep.insertComplettePixelLine(complettePixelLine);
+
 
              } catch (Exception e) {
                 myLog.warn(e.getMessage());

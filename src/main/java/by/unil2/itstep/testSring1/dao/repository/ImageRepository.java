@@ -105,15 +105,9 @@ public class ImageRepository {
 
         PixelLine currentPixelLine = null;
 
-        clearCompletteImagesFromBuffer();//
+        //clearCompletteImagesFromBuffer();//
 
-        //Search free linePixel in buffer of the images
 
-        //sourceIndex=sourceIndex%imgCountInBuffer;
-
-        //sourceIndex=(sourceIndex+1)%imgCountInBuffer;
-
-        //int i=sourceIndex;
         int i;
         for (int j = sourceIndex; j < sourceIndex+imgCountInBuffer; j++) {
 
@@ -121,7 +115,7 @@ public class ImageRepository {
             if (i>imgCountInBuffer-1) i=(i-imgCountInBuffer+1);
 
 
-            i=Math.random()*
+//            i=Math.random()*
 
             //Loked image because search by all pixelLine in current image
             synchronized (MyLocker.getLocker()) {
@@ -147,7 +141,7 @@ public class ImageRepository {
     /**
      * this method deleted from bufer saved images
      */
-    private void clearCompletteImagesFromBuffer(){
+    private void  clearCompletteImagesFromBuffer(){
 
 
         //search completted images and erase it
@@ -157,7 +151,6 @@ public class ImageRepository {
                 imgInBuffer[i].getProcesstatus() == ImageStatus.SAVE_ERROR) {
                 myLog.info("image " + imgInBuffer[i].getFrameNum() + " "+ imgInBuffer[i].getProcesstatus());
                 deleteOneImageFromBuffer(i);
-                return;
                 }
 
             }//next i
@@ -166,35 +159,26 @@ public class ImageRepository {
 
 
 
-    private void deleteOneImageFromBuffer(int index){
+    private synchronized void deleteOneImageFromBuffer(int index){
 
-           synchronized (MyLocker.getLocker()) {
+        if (imgInBuffer[index].getProcesstatus()==ImageStatus.CALC_PROCESS) return;
 
-            /*
-            imgInBuffer[index] = new MyImage(this.imgWidth,
-                                             this.imgHeight,
-                                             this.newFrameNum,
-                                             calcOpt.getInt("lineLifeTime"),  //set lineLifeTime for every pixelLine in this image
-                                             this.imageResultatFolder
-                                             );
-            */
+        int oldFrameNum = imgInBuffer[index].getFrameNum();
 
             //Remark image as nextFrame
-            imgInBuffer[index].setFrameNum(newFrameNum);
             imgInBuffer[index].clear();
+            imgInBuffer[index].setFrameNum(newFrameNum);
+            newFrameNum++;
             imgInBuffer[index].setProcesstatus(ImageStatus.CALC_PROCESS);
 
-            System.out.println("imgInBuffer:");
-            for (int i=0;i<imgCountInBuffer;i++){
-                System.out.println(imgInBuffer[i].getFrameNum());
-                }
+        myLog.trace("CreateImage "+(newFrameNum-1)+" in BUFFER "+"[" + oldFrameNum+"->"+(newFrameNum-1)+"]");
 
+        //Create log (images inBuffer)
+        StringBuffer logMessage = new StringBuffer("Images in buffer: ");
+        for (int i=0;i<imgCountInBuffer;i++)
+            logMessage.append(imgInBuffer[i].getFrameNum()+" , ");
 
-            }//Synchronized
-
-
-        newFrameNum++;
-        myLog.trace("CreateImage "+newFrameNum+" FOR CALCULATION");
+        myLog.trace(logMessage.toString());
 
         if (index==sourceIndex) {
             sourceIndex++;
@@ -203,7 +187,7 @@ public class ImageRepository {
 
 
 
-    }//deleteOneImageFromBuffer
+        }//deleteOneImageFromBuffer
 
 
 
@@ -215,7 +199,7 @@ public class ImageRepository {
      * @return time in millis
      * @throws Exception
      */
-    public Long insertComplettePixelLine(PixelLine complettePixelLine) throws Exception {
+    public synchronized Long insertComplettePixelLine(PixelLine complettePixelLine) throws Exception {
 
         //define image in buffer
         int frameNumber = complettePixelLine.getFrameNumber();
@@ -232,6 +216,10 @@ public class ImageRepository {
 
         //flush to found image line of resultat
         try {
+
+            //clearing buffer if lastLine in image
+            if (complettePixelLine.getLineNumber()==this.imgHeight-1) clearCompletteImagesFromBuffer();
+
             return currentImage.flushComplettePixelLine(complettePixelLine);
             } catch (Exception e) {
                 myLog.error("not flush resultat "+e.getMessage());
@@ -239,6 +227,8 @@ public class ImageRepository {
                 }
 
       }//insertComplettePixelLine
+
+
 
     private MyImage getImageByFrameNumber(int inpFrame) {
         synchronized (MyLocker.getLocker()) {
