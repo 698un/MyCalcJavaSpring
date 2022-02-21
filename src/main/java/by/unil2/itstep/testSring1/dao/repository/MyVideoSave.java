@@ -1,22 +1,34 @@
 package by.unil2.itstep.testSring1.dao.repository;
 
-import by.unil2.itstep.testSring1.dao.model.VideoFile;
-import by.unil2.itstep.testSring1.utilits.CalcOptions;
-import by.unil2.itstep.testSring1.utilits.loger.LogState;
-import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
 
-public class VideoSave extends Thread{
+public class MyVideoSave extends Thread{
 
-    VideoFile videoFile;
+    public static String completteFileName =  "complette.inf";
 
-    public VideoSave(VideoFile inpVideoFile){
-        this.videoFile = inpVideoFile;
-        }
+    String fileName;
+    String videoFolder;
+    String imageFolder;
+    String appCodecPath;
+    int fps;
+
+    public MyVideoSave(String inpFileName,
+                       String inpVideoFolder,
+                       String inpImageFolder,
+                       String inpAppCodecPath,
+                       int inpFps){
+
+        this.fileName=      inpFileName;
+        this.videoFolder =  inpVideoFolder;
+        this.imageFolder=   inpImageFolder;
+        this.appCodecPath = inpAppCodecPath;
+        this.fps =          inpFps;
+        }//constructor
+
 
     @Override
     public void run(){
@@ -25,7 +37,7 @@ public class VideoSave extends Thread{
         try{
 
             //Create Command File in videoFolder
-            String batPath = createBatFile(videoFile.getFolder());
+            String batPath = createBatFile(this.imageFolder);
 
             //Run creating command file
             launchBatFile(batPath);
@@ -52,26 +64,47 @@ public class VideoSave extends Thread{
     private void launchBatFile(String bathPath)throws Exception{
 
         //bat file locate in resImageFolder
-        String workDir = this.videoFile.getSourceFolder()+
+        String workDir = this.imageFolder+
                          File.separator;
 
         try {
             Runtime.getRuntime().exec("cmd /c start "+bathPath,null,new File(workDir));
 
              } catch (IOException e) {
-                   //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
-                   // MyLogger.getLogger().log(LogState.ERROR,"video create not starting");
+
                     throw new Exception(e.getMessage()) ;
                         }
 
         //mark in fileSystem that process is started
-        VideoRepository.getRepository().videoSetUnComplette();
-
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //MyLogger.getLogger().log(LogState.INFO,"Start video create");
-
+        videoSetUnComplette(this.videoFolder);
 
         }//launchBatFile
+
+    /**
+     * This method check "videoComplette" in fileSystem
+     * @Param = folder of video files
+     */
+    public static void videoSetComplette(String videoPath){
+        File fileComplette = new File(videoPath+File.separator+completteFileName);
+        try {
+            fileComplette.createNewFile();
+        } catch (IOException e){}
+        }//videoSetComplette
+
+
+    /**
+     * This method set marker as process create of video is running
+     * @Param = folder of video files
+     */
+    public static void videoSetUnComplette(String videoPath){
+        File fileComplette = new File(videoPath+File.separator+completteFileName);
+        try {
+            fileComplette.delete();
+        } catch (Exception e){}
+        }//videoSetUnComplette
+
+
+
 
 
     /**
@@ -82,22 +115,21 @@ public class VideoSave extends Thread{
      */
     private String createBatFile(String fullVideoPath)throws IOException {
 
-        String batFullPath = CalcOptions.getOptions().getApplicationPath()+
-                             File.separator+
-                             CalcOptions.getOptions().getStr("imageResultatFolder")+
+        String batFullPath = this.imageFolder+
                              File.separator+
                              "create.bat";
 
         //create first Command line in bat file
-        String data1 =CalcOptions.getOptions().getStr("ffmpegPath")+
+        String data1 =this.appCodecPath+
                      " -r "+
-                     CalcOptions.getOptions().getInt("fps")+
+                     this.fps+
                      " -y -i \"%%10d.png\" "+
                      fullVideoPath+
                      "\n";
 
+        //create second Command line in bat file
         String data2 = "NUL>  "+
-                      VideoRepository.getRepository().getFileComplettePath()+
+                      videoFolder+File.separator+completteFileName+
                       "\n";
 
         String data3 = "exit";

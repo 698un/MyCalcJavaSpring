@@ -41,12 +41,20 @@ public class VideoService {
 
 
 
+
+
     public void createMP4(String fileName)throws Exception {
         try {
             videoRep.createNewVideo(fileName);
             } catch (Exception e) {throw new Exception(e.getMessage());}
 
         }//createMP4
+
+
+    public boolean fileIsExist(String fileName){
+        return videoRep.fileIsExist(fileName);
+        }
+
 
 
     /**
@@ -58,19 +66,18 @@ public class VideoService {
 
     public ArrayList getVideoList()throws Exception {
         try {
-            return VideoRepository.getRepository().getVideoList();
+            return videoRep.getVideoList();
             } catch (Exception e) {throw new Exception(e.getMessage());}
 
         }//getVideoList
 
-    public File getFileObject(String fileName) throws Exception{
+    public File getVideoFile(String fileName) throws Exception{
 
         try{
-            return VideoRepository.getRepository().getVideo(fileName);
+            return videoRep.getVideo(fileName);
             } catch (Exception e) {throw new Exception("file error");}
 
         }//getFileObject
-
 
 
 

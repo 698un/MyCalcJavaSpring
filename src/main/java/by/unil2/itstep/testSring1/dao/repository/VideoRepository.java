@@ -1,12 +1,15 @@
 package by.unil2.itstep.testSring1.dao.repository;
 
 import by.unil2.itstep.testSring1.dao.model.VideoFile;
+import by.unil2.itstep.testSring1.exceptions.AccessException;
+import by.unil2.itstep.testSring1.exceptions.VideoException;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import org.springframework.stereotype.Component;
 
 import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +29,6 @@ public class VideoRepository {
 
     public void reset(){
         videoSetComplette();//Создание файла присзнака что можно склеивать
-
         videoFolder =calcOpt.getApplicationPath()+
                      File.separator+
                      calcOpt.getStr("imageResultatFolder");
@@ -34,6 +36,15 @@ public class VideoRepository {
         //create videoFolder if not exist
         new File(videoFolder).mkdir();
         }
+
+    public Boolean fileIsExist(String fileName){
+
+
+
+        return false;
+        }
+
+
 
 
     /**
@@ -43,20 +54,37 @@ public class VideoRepository {
     public void createNewVideo(String fileName) throws Exception{
 
         //if process is not complete
-        if (!videoIsComplette()) throw new Exception("Process is not Complette");
+        if (!videoIsComplette()) throw new AccessException("Process is not Complette");
+
+
+        String videoFolder = calcOpt.getApplicationPath()+
+                             File.separator+
+                             calcOpt.getStr("videoResultatFolder");
+
+        String imageFolder = calcOpt.getApplicationPath()+
+                             File.separator+
+                             calcOpt.getStr("imageResultatFolder");
+
 
         try {
-            VideoFile videoFile = new VideoFile(fileName);
 
-            VideoSave saveThread = new VideoSave(videoFile);
+            MyVideoSave saveThread = new MyVideoSave(fileName,
+                                                     videoFolder,
+                                                     imageFolder,
+                                                     calcOpt.getStr("ffmpegPath"),
+                                                     calcOpt.getInt("fps")
+                                                     );
+
+
+
             saveThread.start();
-
 
             } catch (Exception e){throw new Exception(e.getMessage());}
 
-
         //return videoFileName;
         }
+
+
 
     /**
      * This method defined complette process of video create or not
@@ -141,10 +169,20 @@ public class VideoRepository {
       * @param fileName
      * @return
      */
-    public File getVideo(String fileName){
+    public File getVideo(String fileName) throws Exception{
 
+        String fullFilePath = calcOpt.getApplicationPath()+
+                              File.separator+
+                              calcOpt.getStr("videoResultatFolder")+
+                              fileName;
 
-        return null;
+        File videoFileObject = new File(fullFilePath);
+
+        if (videoFileObject.exists()==false) throw new VideoException("File not found");
+
+        if (videoFileObject.isFile()==false) throw new VideoException("incorrect File name");
+
+        return videoFileObject;
         }
 
 

@@ -4,7 +4,7 @@ package by.unil2.itstep.testSring1.dao.model;
 import by.unil2.itstep.testSring1.dao.repository.VideoRepository;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 
-import javax.persistence.Entity;
+//import javax.persistence.Entity;
 import java.io.File;
 
 
@@ -24,7 +24,6 @@ public class VideoFile {
 
     public void setSourceFolder(String inpFolder){this.sourceFolder = inpFolder;}
     public String getSourceFolder(){return this.sourceFolder;}
-
 
     public VideoFile(String inpFileName){
         this.fileName = inpFileName;
