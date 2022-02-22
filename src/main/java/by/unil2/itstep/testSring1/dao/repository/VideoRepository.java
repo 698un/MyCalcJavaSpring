@@ -124,12 +124,15 @@ public class VideoRepository {
       * @param fileName
      * @return
      */
-    public File getVideo(String fileName) throws Exception{
+    public String getVideo(String fileName) throws Exception{
 
         String fullFilePath = calcOpt.getApplicationPath()+
                               File.separator+
                               calcOpt.getStr("videoResultatFolder")+
+                              File.separator+
                               fileName;
+
+        System.out.println("fullFilePath:"+fullFilePath);
 
         File videoFileObject = new File(fullFilePath);
 
@@ -137,7 +140,8 @@ public class VideoRepository {
 
         if (videoFileObject.isFile()==false) throw new VideoException("incorrect File name");
 
-        return videoFileObject;
+        return fullFilePath;
+        //return videoFileObject;
         }
 
 

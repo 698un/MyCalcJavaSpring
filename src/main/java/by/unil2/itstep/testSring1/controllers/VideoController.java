@@ -2,10 +2,12 @@ package by.unil2.itstep.testSring1.controllers;
 
 
 import by.unil2.itstep.testSring1.controllers.webentity.ErrorMessage;
+import by.unil2.itstep.testSring1.exceptions.VideoException;
 import by.unil2.itstep.testSring1.services.ClientService;
 import by.unil2.itstep.testSring1.services.VideoService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -65,6 +67,7 @@ public class VideoController {
 
         //if not valid rootKey then send ERROR message
         if (!clientService.isRootKey(clientKey)) return ResponseEntity.ok().body(new ErrorMessage("Wrong root key"));
+
         try {
             List videoList= videoService.getVideoList();//send to service and get time of calculation
             return ResponseEntity.ok().body(videoList);
@@ -75,15 +78,37 @@ public class VideoController {
         }//getVideoList
 
 
-    @GetMapping("/videofile/{filename}")
-    public ResponseEntity<?> getVideoFile(@PathVariable(name="filename") String fileName,
-                               @CookieValue(value="ClientKey") String clientKey){
+    //@GetMapping("/videofile/{filename}")
+
+/*
+    @RequestMapping(value = "/videofile/{filename}", method = RequestMethod.GET)
+    @ResponseBody
+    public FileSystemResource getFile(@PathVariable("filename") String fileName,
+                                      @CookieValue(value="ClientKey") String clientKey) {
+
+
+    //public ResponseEntity<?> getVideoFile(@PathVariable(name="filename") String fileName,
+//                               @CookieValue(value="ClientKey") String clientKey){
 
         //if not valid rootKey then send ERROR message
         if (!clientService.isRootKey(clientKey)) return ResponseEntity.ok().body(new ErrorMessage("Wrong root key"));
 
         //if not valid rootKey then send ERROR message
-        if (!videoService.fileIsExist(fileName)) return ResponseEntity.ok().body(new ErrorMessage("Wrong root key"));
+        if (!videoService.fileIsExist(fileName)) return ResponseEntity.ok().body(new ErrorMessage("File not found"));
+
+
+       //public FileSystemResource getFile(@PathVariable("file_name") String fileName) {
+        try {
+            return new FileSystemResource(videoService.getVideoFile(fileName));
+
+        }catch (VideoException e) {
+            return ResponseEntity.badRequest()ok().body(new ErrorMessage(e.getMessage()));
+
+        } catch (Exception e) {
+            return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
+            }
+
+
 
 
         try {
@@ -94,6 +119,10 @@ public class VideoController {
             return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }//getVideoFile
+*/
+
+
+
 
 }//VideoController
 

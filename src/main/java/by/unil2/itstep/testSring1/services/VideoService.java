@@ -78,11 +78,11 @@ public class VideoService {
 
         }//getVideoList
 
-    public File getVideoFile(String fileName) throws Exception{
+    public String getVideoFile(String fileName) throws Exception{
 
         try{
             return videoRep.getVideo(fileName);
-            } catch (Exception e) {throw new Exception("file error");}
+            } catch (Exception e) {throw e;}
 
         }//getFileObject
 
