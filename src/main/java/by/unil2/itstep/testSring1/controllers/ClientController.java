@@ -1,5 +1,6 @@
 package by.unil2.itstep.testSring1.controllers;
 
+import by.unil2.itstep.testSring1.controllers.webentity.ErrorMessage;
 import by.unil2.itstep.testSring1.dao.model.Client;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.services.ClientService;
@@ -80,7 +81,7 @@ public class ClientController {
             return ResponseEntity.ok().body(newRootKey);
 
             } catch (AccessException e) {
-              return new ResponseEntity<Error>(HttpStatus.BAD_REQUEST);
+                    return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));//send errorMessage as AccessException
 
             } catch (Exception e){
               return new ResponseEntity<Error>(HttpStatus.INTERNAL_SERVER_ERROR);

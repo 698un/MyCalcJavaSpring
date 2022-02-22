@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class MyVideoSave extends Thread{
 
-    public static String completteFileName =  "complette.inf";
+    public static String completteFileName =  "enablevideocreate.inf";
 
     String fileName;
     String videoFolder;
@@ -37,7 +37,7 @@ public class MyVideoSave extends Thread{
         try{
 
             //Create Command File in videoFolder
-            String batPath = createBatFile(this.imageFolder);
+            String batPath = createBatFile(this.videoFolder+File.separator+fileName);
 
             //Run creating command file
             launchBatFile(batPath);
@@ -54,6 +54,9 @@ public class MyVideoSave extends Thread{
         }
 
     }//saveToDisc
+
+
+
 
 
     /**
@@ -76,16 +79,29 @@ public class MyVideoSave extends Thread{
                         }
 
         //mark in fileSystem that process is started
-        videoSetUnComplette(this.videoFolder);
+        videoCreateSetDisabled(this.videoFolder);
 
         }//launchBatFile
+
+
+
+    /**
+     * This method defined complette process of video create or not
+     * @return TRUE if not complette
+     */
+    public static boolean videoCreateIsEnabled(String videoFolder){
+        File fileComplette = new File(videoFolder+File.separator+completteFileName);
+        if (fileComplette.exists()) return true;
+        return false;
+        }
+
 
     /**
      * This method check "videoComplette" in fileSystem
      * @Param = folder of video files
      */
-    public static void videoSetComplette(String videoPath){
-        File fileComplette = new File(videoPath+File.separator+completteFileName);
+    public static void videoCreateSetEnabled(String videoFolder){
+        File fileComplette = new File(videoFolder+File.separator+completteFileName);
         try {
             fileComplette.createNewFile();
         } catch (IOException e){}
@@ -96,8 +112,8 @@ public class MyVideoSave extends Thread{
      * This method set marker as process create of video is running
      * @Param = folder of video files
      */
-    public static void videoSetUnComplette(String videoPath){
-        File fileComplette = new File(videoPath+File.separator+completteFileName);
+    public static void videoCreateSetDisabled(String videoFolder){
+        File fileComplette = new File(videoFolder+File.separator+completteFileName);
         try {
             fileComplette.delete();
         } catch (Exception e){}
@@ -133,7 +149,6 @@ public class MyVideoSave extends Thread{
                       "\n";
 
         String data3 = "exit";
-
 
         System.out.println("bat_data:"+data1);
         System.out.println("bat_data:"+data2);

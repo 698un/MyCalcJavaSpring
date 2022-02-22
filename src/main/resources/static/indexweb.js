@@ -121,9 +121,9 @@ function cmdAdminClick(){
 
     let s1 =  sendAnyHttp("POST","/rootkey",adminPassword);
 
-    alert(s1);
+    //alert(s1);
     if (s1.indexOf("error")>-1) {
-        alert(s1);
+        alert(JSON.parse(s1).errorStr);
         return;
         }
 

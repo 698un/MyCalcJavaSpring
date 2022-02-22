@@ -18,23 +18,27 @@ public class VideoRepository {
 
     private CalcOptions calcOpt;//Injects components
 
+
     //constructor
     public VideoRepository(CalcOptions inpCalcOptions){
         this.calcOpt = inpCalcOptions;
-
+        reset();
         }
 
 
     private String videoFolder;
 
     public void reset(){
-        videoSetComplette();//Создание файла присзнака что можно склеивать
+
         videoFolder =calcOpt.getApplicationPath()+
                      File.separator+
-                     calcOpt.getStr("imageResultatFolder");
+                     calcOpt.getStr("videoResultatFolder");
 
         //create videoFolder if not exist
         new File(videoFolder).mkdir();
+
+        //set marker in fileSystem as VideoCreate ENABLE
+        MyVideoSave.videoCreateSetEnabled(this.videoFolder);
         }
 
     public Boolean fileIsExist(String fileName){
@@ -53,14 +57,10 @@ public class VideoRepository {
      */
     public void createNewVideo(String fileName) throws Exception{
 
-        //if process is not complete
-        if (!videoIsComplette()) throw new AccessException("Process is not Complette");
+        //if process of create of videoFile is NOT ENABLED then exit with errorMessage
+        if (!MyVideoSave.videoCreateIsEnabled(this.videoFolder)) throw new AccessException("Process is not Complette");
 
-
-        String videoFolder = calcOpt.getApplicationPath()+
-                             File.separator+
-                             calcOpt.getStr("videoResultatFolder");
-
+        //defined folder of images
         String imageFolder = calcOpt.getApplicationPath()+
                              File.separator+
                              calcOpt.getStr("imageResultatFolder");
@@ -86,54 +86,9 @@ public class VideoRepository {
 
 
 
-    /**
-     * This method defined complette process of video create or not
-      * @return TRUE if not complette
-     */
-    public boolean videoIsComplette(){
-       // System.out.println("COMPLETTE:"+getFileComplettePath());
-        File fileComplette = new File(getFileComplettePath());
-        if (fileComplette.exists()) return true;
-        return false;
-        }
-
-    /**
-     * This method set marker as video is complette
-     */
-    public void videoSetComplette(){
-        // System.out.println("COMPLETTE:"+getFileComplettePath());
-        File fileComplette = new File(getFileComplettePath());
-        try {
-            fileComplette.createNewFile();
-            } catch (IOException e){}
-        }//videoSetComplette
-
-
-    /**
-     * This method set marker as process create of video is running
-     */
-    public void videoSetUnComplette(){
-        // System.out.println("COMPLETTE:"+getFileComplettePath());
-        File fileComplette = new File(getFileComplettePath());
-        try {
-            fileComplette.delete();
-            } catch (Exception e){}
-        }//videoSetUnComplette
 
 
 
-    /**
-     * This method generate path to completteFile
-      * @return
-     */
-    public String getFileComplettePath(){
-
-        return calcOpt.getApplicationPath()+
-               File.separator+
-               calcOpt.getStr("videoResultatFolder")+
-               File.separator+
-               "complette.inf";
-        }//getFileComplettePath
 
 
     /**

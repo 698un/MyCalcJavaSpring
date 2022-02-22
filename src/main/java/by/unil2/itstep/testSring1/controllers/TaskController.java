@@ -9,6 +9,7 @@ import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.exceptions.CalcException;
 import by.unil2.itstep.testSring1.exceptions.IncorrectFormatException;
 import by.unil2.itstep.testSring1.services.ClientService;
+import by.unil2.itstep.testSring1.services.SystemService;
 import by.unil2.itstep.testSring1.services.TaskService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
@@ -17,6 +18,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
+
 @Controller
 public class TaskController {
 
@@ -24,19 +27,22 @@ public class TaskController {
     private final MyLogger myLog;
     private final ClientService clientService;
     private final CalcOptions calcOpt;
+    private final SystemService sysService;
 
 
     //constructor
     public TaskController(TaskService inpTaskService,
-                          MyLogger inpMyLogger,
                           ClientService inpClientService,
+                          SystemService inpSystemService,
+                          MyLogger inpMyLogger,
                           CalcOptions inpCalcOptions){
 
         this.taskService =    inpTaskService;
         this.myLog =          inpMyLogger;
         this.clientService =  inpClientService;
         this.calcOpt =        inpCalcOptions;
-    }
+        this.sysService =     inpSystemService;
+        }
 
 
     @GetMapping("/newtask")
@@ -57,12 +63,20 @@ public class TaskController {
     }//getNewTask
 
 
+    //29-886-1850
+
+
+
+
     @PostMapping("/resultat/{sceneKey}/{frameNum}/{lineNum}")
     public ResponseEntity<?> postResultat(@PathVariable (name="sceneKey") String sceneKey,
                                           @PathVariable (name="frameNum") int frameNum,
                                           @PathVariable (name="lineNum") int lineNum,
                                           @RequestBody String pixArrayStr,
                                           @CookieValue(value="ClientKey") String clientKey){
+
+        //SEQURITY
+        if (!clientService.clientIsRegistration(clientKey)) return ResponseEntity.ok().body(new ErrorMessage("client not actual"));
 
         //representatoin resultat in object
         PixelLine resPixelLine = new PixelLine(frameNum,lineNum);  //create object of resultat
@@ -92,6 +106,9 @@ public class TaskController {
             }
 
     }//postResultat
+
+
+
 
 
     /**
@@ -129,6 +146,8 @@ public class TaskController {
 
         return pixelArray;
     }//getArrayFromString
+
+
 
 
 

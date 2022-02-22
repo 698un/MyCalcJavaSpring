@@ -51,7 +51,7 @@ public class VideoController {
 
         try{
             videoService.createMP4(fileName);
-            return ResponseEntity.ok().body("process of videoCreate launch");
+            return ResponseEntity.ok().body("process of videoCreate is launch");
 
         } catch (Exception e) {
             myLog.error(e.getMessage());

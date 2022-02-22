@@ -44,6 +44,13 @@ public class VideoService {
 
 
     public void createMP4(String fileName)throws Exception {
+
+        String lowFileName = fileName.toLowerCase();//NECESalary
+        //append ext for filename if not exist
+        if (lowFileName.indexOf(".mp4")<0) fileName+=".mp4";
+
+
+
         try {
             videoRep.createNewVideo(fileName);
             } catch (Exception e) {throw new Exception(e.getMessage());}

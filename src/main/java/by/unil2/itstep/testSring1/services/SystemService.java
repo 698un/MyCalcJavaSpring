@@ -2,6 +2,8 @@ package by.unil2.itstep.testSring1.services;
 
 import by.unil2.itstep.testSring1.controllers.webentity.ServerStatus;
 import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
+import by.unil2.itstep.testSring1.dao.repository.ImageRepository;
+import by.unil2.itstep.testSring1.dao.repository.VideoRepository;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.models.Product;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
@@ -18,15 +20,21 @@ public class SystemService {
     private final CalcOptions calcOpt;
     private final MyLogger myLog;
     private final ClientService clientService;
-
+    private final ImageRepository imgRep;
+    private final VideoRepository videoRep;
 
     //constructor
     public SystemService(ClientService inpClientService,
                          CalcOptions inpCalcOptions,
-                         MyLogger inpMyLogger){
+                         MyLogger inpMyLogger,
+                         ImageRepository inpImageRepository,
+                         VideoRepository inpVideoRepository){
         this.clientService = inpClientService;
         this.calcOpt = inpCalcOptions;
         this.myLog = inpMyLogger;
+        this.imgRep = inpImageRepository;
+        this.videoRep = inpVideoRepository;
+
         }//constructor
 
 
@@ -34,6 +42,20 @@ public class SystemService {
     public String getPathApp(){
         return calcOpt.getStr("applicationPath");
         }//getAppPath
+
+
+    /**This method reset Calculation with new parameters
+     *
+     */
+    public void resetCalculation() {
+
+        calcOpt.reLoad();
+        imgRep.reset();
+        videoRep.reset();
+        }
+
+
+
 
 
 
@@ -56,6 +78,9 @@ public class SystemService {
 
         return answerStatus;
         }//getAppPath
+
+
+
 
 
 

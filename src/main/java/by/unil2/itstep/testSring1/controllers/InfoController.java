@@ -1,3 +1,4 @@
+/*
 package by.unil2.itstep.testSring1.controllers;
 
 
@@ -46,3 +47,4 @@ public class InfoController {
 
 
 
+*/

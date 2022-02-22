@@ -93,7 +93,7 @@ public class CalcOptions {
         throw new AccessException("Invalid login or password!");
         }//rootPasswordEquals
 
-    private void reLoad(){
+    public void reLoad(){
 
         //Read options from file
         this.applicationPath= System.getProperty("user.dir");
