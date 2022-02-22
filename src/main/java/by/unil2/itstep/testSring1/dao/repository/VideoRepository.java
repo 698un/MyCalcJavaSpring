@@ -124,7 +124,7 @@ public class VideoRepository {
       * @param fileName
      * @return
      */
-    public String getVideo(String fileName) throws Exception{
+    public String getVideoFullPath(String fileName) throws Exception{
 
         String fullFilePath = calcOpt.getApplicationPath()+
                               File.separator+

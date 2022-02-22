@@ -66,8 +66,8 @@ public class VideoService {
 
     /**
      * get list of complette videofiles
-     * @param fileName
-     * @return
+     * @param none
+     * @return list<String>
      * @throws Exception
      */
 
@@ -78,10 +78,10 @@ public class VideoService {
 
         }//getVideoList
 
-    public String getVideoFile(String fileName) throws Exception{
+    public String getVideoFullPath(String fileName) throws Exception{
 
         try{
-            return videoRep.getVideo(fileName);
+            return videoRep.getVideoFullPath(fileName);
             } catch (Exception e) {throw e;}
 
         }//getFileObject
