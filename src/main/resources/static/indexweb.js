@@ -112,7 +112,7 @@ function cmdJoinClick(){
 
     //myUser = respJSON;
 
-    document.location.href = '/clientindex.html';
+    document.location.href = '/client/clientindex.html';
 }//cmdJoinClick
 
 function cmdAdminClick(){
@@ -130,7 +130,7 @@ function cmdAdminClick(){
 
     //let respJSON = JSON.parse(s1);//весь ответ как json объект
     //myUser = respJSON;
-    document.location.href = '/adminindex.html';
+    document.location.href = '/root/adminindex.html';
 
 
 }//cmdAdminClick
