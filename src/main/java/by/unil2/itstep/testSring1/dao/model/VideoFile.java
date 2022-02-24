@@ -1,3 +1,4 @@
+/*
 package by.unil2.itstep.testSring1.dao.model;
 
 
@@ -40,3 +41,6 @@ public class VideoFile {
 
 
 }
+
+
+ */

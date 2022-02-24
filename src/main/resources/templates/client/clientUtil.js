@@ -17,25 +17,47 @@ let calcTimeOut =-1;
 
 
     if (answerStr.indexOf("error")>-1) {
+
+                                    //если ключ устарел спрашиваем новый
+                                    //if (answerStr.indexOf("actual client")>-1) {
+                                    //    sendAnyHttp("POST","/clientkey","{}");
+                                    //    }
+
+
+
+
                                     calcTimeOut = tNow+1.0;// 1 second for timeout
                                     calcStatus = 0;
-                                    console.log("ErrorNewTask");
+                                    console.log(answerStr);
                                     console.log("pause 1 sec");
 
                                     //if clientKey not valid get to startPage
-                                    if (answerStr.indexOf("not actual")>-1) document.location.href = '/index.html';
+                                    if (answerStr.indexOf("invalid client")>-1) document.location.href = '/index.html';
 
                                     return;
                                     }
-
     let answerObj = JSON.parse(answerStr);
+
+
 
     //if (answerObj.frame==0) alert (answerObj.frame);
 
     //alert(answerObj.data);
     let curentFrame = answerObj.frame;
     let curentLine = answerObj.line;
+
+    //если сцена сменилась то не переходим в расчет
+    // а переспрашиваем параметры сцены
+    if (answerObj.sceneKey!=displayOpt.currentSceneKey) {
+
+            displayOpt.currentSceneKey=answerObj.sceneKey;
+            calcStatus=0;
+            UI.UIStatus.lastUpdateTime=-1;
+            UI.UIStatus.update();
+            }
+
     displayOpt.currentSceneKey = answerObj.sceneKey;
+    //alert(answerStr);
 
     initScene(curentFrame,curentLine)//init parameters
     startXe = 0;//начинаем с левого пикселя

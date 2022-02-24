@@ -34,6 +34,11 @@ public class ClientRepository{
         clientList =  new ConcurrentHashMap<String,Client>();//create storage
         }
 
+    public void reset(){
+
+
+    }
+
 
     /**
      * Deleting Client from storage by it ClientKey

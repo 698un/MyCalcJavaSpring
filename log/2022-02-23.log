@@ -1,0 +1,160 @@
+[INFO]	2022-02-23 18:27:03.506	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 18:27:03.514	ImageRepository	Delete allImages
+[INFO]	2022-02-23 18:27:47.425	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 18:27:47.427	ImageRepository	Delete allImages
+[DEBUG]	2022-02-23 18:27:50.595	ClientRepository	clear old Clients...
+[INFO]	2022-02-23 18:27:50.596	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 18:27:51.821	ClientController	New Client ask clientKey
+[INFO]	2022-02-23 18:27:53.038	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 18:27:53.046	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:53.659	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 0
+[INFO]	2022-02-23 18:27:53.673	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:53.920	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 1
+[INFO]	2022-02-23 18:27:53.932	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.121	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 2
+[INFO]	2022-02-23 18:27:54.137	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.286	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 3
+[INFO]	2022-02-23 18:27:54.300	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.437	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 4
+[INFO]	2022-02-23 18:27:54.450	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.569	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 5
+[INFO]	2022-02-23 18:27:54.584	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.685	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 6
+[INFO]	2022-02-23 18:27:54.701	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.802	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 7
+[INFO]	2022-02-23 18:27:54.816	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:54.902	TaskService	Client wmygvkxixj send resultat: frame: 0 line: 8
+[INFO]	2022-02-23 18:27:54.916	TaskService	Client wmygvkxixj ask new task
+[INFO]	2022-02-23 18:27:55.043	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 18:37:46.748	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 18:37:46.750	ImageRepository	Delete allImages
+[DEBUG]	2022-02-23 18:37:48.822	ClientRepository	clear old Clients...
+[INFO]	2022-02-23 18:37:48.823	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 18:37:54.239	ClientController	 New Client ask RootKey
+[INFO]	2022-02-23 18:41:18.887	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 18:41:18.889	ImageRepository	Delete allImages
+[INFO]	2022-02-23 18:41:20.180	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 18:41:20.182	ImageRepository	Delete allImages
+[INFO]	2022-02-23 19:12:01.663	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 19:12:01.665	ImageRepository	Delete allImages
+[DEBUG]	2022-02-23 19:12:09.989	ClientController	command_api/exit
+[INFO]	2022-02-23 19:12:09.990	ClientRepository	Client yavddekoru deleting from calculation
+[WARN]	2022-02-23 19:12:09.990	ClientRepository	Client yavddekoru not CONTAINT
+[DEBUG]	2022-02-23 19:12:10.092	ClientRepository	clear old Clients...
+[INFO]	2022-02-23 19:12:10.092	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 19:12:11.480	ClientController	New Client ask clientKey
+[INFO]	2022-02-23 19:12:36.955	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 19:12:36.956	ImageRepository	Delete allImages
+[DEBUG]	2022-02-23 19:12:37.443	ClientRepository	clear old Clients...
+[INFO]	2022-02-23 19:12:37.444	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 19:12:39.651	ClientController	New Client ask clientKey
+[INFO]	2022-02-23 19:12:40.738	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 19:12:40.747	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:41.346	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 0
+[INFO]	2022-02-23 19:12:41.357	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:41.593	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 1
+[INFO]	2022-02-23 19:12:41.605	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:41.794	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 2
+[INFO]	2022-02-23 19:12:41.808	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:41.960	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 3
+[INFO]	2022-02-23 19:12:41.974	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.110	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 4
+[INFO]	2022-02-23 19:12:42.123	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.243	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 5
+[INFO]	2022-02-23 19:12:42.257	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.360	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 6
+[INFO]	2022-02-23 19:12:42.374	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.476	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 7
+[INFO]	2022-02-23 19:12:42.491	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.577	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 8
+[INFO]	2022-02-23 19:12:42.590	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.676	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 9
+[INFO]	2022-02-23 19:12:42.691	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.776	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 10
+[INFO]	2022-02-23 19:12:42.790	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.875	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 11
+[INFO]	2022-02-23 19:12:42.890	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:42.960	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 12
+[INFO]	2022-02-23 19:12:42.976	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:43.041	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 13
+[INFO]	2022-02-23 19:12:43.057	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:43.127	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 14
+[INFO]	2022-02-23 19:12:43.141	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:43.216	TaskService	Client ngrvknmggj send resultat: frame: 0 line: 15
+[INFO]	2022-02-23 19:12:43.229	TaskService	Client ngrvknmggj ask new task
+[INFO]	2022-02-23 19:12:43.290	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 19:13:08.297	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 19:18:09.065	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 19:18:09.067	ImageRepository	Delete allImages
+[INFO]	2022-02-23 20:03:15.952	ImageRepository	 Init applicationPath: E:\698un\ITSTEP_collection\springTest\v3\MyCalcJavaSpring
+[DEBUG]	2022-02-23 20:03:15.953	ImageRepository	Delete allImages
+[DEBUG]	2022-02-23 20:03:21.360	ClientRepository	clear old Clients...
+[INFO]	2022-02-23 20:03:21.361	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 20:03:24.479	ClientController	New Client ask clientKey
+[INFO]	2022-02-23 20:03:26.250	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 20:03:26.258	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:26.871	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 0
+[INFO]	2022-02-23 20:03:26.885	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:27.123	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 1
+[INFO]	2022-02-23 20:03:27.136	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:27.321	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 2
+[INFO]	2022-02-23 20:03:27.336	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:27.489	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 3
+[INFO]	2022-02-23 20:03:27.503	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:27.639	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 4
+[INFO]	2022-02-23 20:03:27.652	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:27.771	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 5
+[INFO]	2022-02-23 20:03:27.786	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:27.888	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 6
+[INFO]	2022-02-23 20:03:27.903	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.004	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 7
+[INFO]	2022-02-23 20:03:28.021	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.107	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 8
+[INFO]	2022-02-23 20:03:28.119	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.205	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 9
+[INFO]	2022-02-23 20:03:28.218	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.305	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 10
+[INFO]	2022-02-23 20:03:28.320	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.404	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 11
+[INFO]	2022-02-23 20:03:28.419	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.488	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 12
+[INFO]	2022-02-23 20:03:28.501	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.571	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 13
+[INFO]	2022-02-23 20:03:28.586	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.653	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 14
+[INFO]	2022-02-23 20:03:28.669	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.738	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 15
+[INFO]	2022-02-23 20:03:28.751	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.821	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 16
+[INFO]	2022-02-23 20:03:28.836	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.903	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 17
+[INFO]	2022-02-23 20:03:28.918	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:28.971	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 18
+[INFO]	2022-02-23 20:03:28.986	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.037	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 19
+[INFO]	2022-02-23 20:03:29.050	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.104	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 20
+[INFO]	2022-02-23 20:03:29.117	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.169	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 21
+[INFO]	2022-02-23 20:03:29.183	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.235	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 22
+[INFO]	2022-02-23 20:03:29.250	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.301	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 23
+[INFO]	2022-02-23 20:03:29.316	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.367	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 24
+[INFO]	2022-02-23 20:03:29.383	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.434	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 25
+[INFO]	2022-02-23 20:03:29.449	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.500	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 26
+[INFO]	2022-02-23 20:03:29.516	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.566	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 27
+[INFO]	2022-02-23 20:03:29.583	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.633	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 28
+[INFO]	2022-02-23 20:03:29.649	TaskService	Client enerwxcsbj ask new task
+[INFO]	2022-02-23 20:03:29.700	TaskService	Client enerwxcsbj send resultat: frame: 0 line: 29
+[INFO]	2022-02-23 20:03:29.717	TaskService	Client enerwxcsbj ask new task
+[DEBUG]	2022-02-23 20:03:29.723	ClientController	command_api/exit
+[INFO]	2022-02-23 20:03:29.725	ClientRepository	Client enerwxcsbj deleting from calculation
+[INFO]	2022-02-23 20:03:29.726	ClientService	Client enerwxcsbj leave of calculation
+[INFO]	2022-02-23 20:03:30.867	SystemController	client ask ServerStatus
+[INFO]	2022-02-23 20:03:35.736	ClientController	 New Client ask RootKey

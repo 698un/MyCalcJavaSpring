@@ -90,6 +90,7 @@ function draw() {
 
 
 
+
                     }
 
     //если процесс расчетов идет
@@ -110,10 +111,23 @@ function draw() {
                     }
 
     if (calcStatus==2){
-                    let answerStr = sendResultat();
 
+                    let answerStr = sendResultat();
+                    calcStatus =0;
 
                     if (answerStr.indexOf("error")>-1){
+                        let answerObj = JSON.parse(answerStr);
+                        console.log(answerObj.errorStr+" ["+displayOpt.width+"]");
+
+                        //если сцена поменялась
+                       // if (answerStr.indexOf("scenekey")>-1) {
+                            UI.UIStatus.lastUpdateTime=-1;
+                            UI.UIStatus.update();
+
+
+                         //   }
+
+
                         resultatErrorCount++;
                         errorPrc = resultatErrorCount/(resultatErrorCount+resultatCorrectCount)*100;
                         calcStatus =0;

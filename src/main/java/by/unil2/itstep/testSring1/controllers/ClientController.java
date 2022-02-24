@@ -30,8 +30,6 @@ public class ClientController {
     private final ClientService clientService;
     private final MyLogger myLog;
 
-
-
     //constructor
     public ClientController(ClientService inpClientService,
                             CalcOptions inpCalcOptions,
@@ -73,10 +71,9 @@ public class ClientController {
         try {
 
             String newRootKey = clientService.getNewRootKey(adminPassword);//get RootKey from Service
-            Cookie cookie = new Cookie("ClientKey",newRootKey);//create cookie for Root
-            response.addCookie(cookie);                              //add cookie to response
-            response.setContentType("text/plain");                   // mark response as string
-
+            Cookie cookie = new Cookie("ClientKey",newRootKey);      //create cookie for Root
+            response.addCookie(cookie);                                    //add cookie to response
+            response.setContentType("text/plain");                         // mark response as string
 
             return ResponseEntity.ok().body(newRootKey);
 
@@ -100,7 +97,4 @@ public class ClientController {
         }//Post /api/exit
 
 
-
-
-
-}//ClientController
+    }//ClientController

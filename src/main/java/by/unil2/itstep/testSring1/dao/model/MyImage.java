@@ -123,12 +123,16 @@ public class MyImage{
 
         //verify length of pixelLine
         if (completteLine.getByteArray().length != this.width * 3) {
-               throw new IncorrectFormatException(" length of array");
+
+
+
+
+               throw new IncorrectFormatException(" length of pixelLine is NOT CORRECT..."+this.width+" <> "+completteLine.getByteArray().length/3 );
                }
 
         //verify clientKey
         if (!pixelLine[lineNum].getClientKey().equals(completteLine.getClientKey())) {
-            throw new CalcException("this line for other client");
+            throw new CalcException("this line for another client");
             }
 
         //defined duratio af all cicle

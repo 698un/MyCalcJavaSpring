@@ -52,6 +52,7 @@ public class SystemService {
         calcOpt.reLoad();
         imgRep.reset();
         videoRep.reset();
+        //clientService
         }
 
 
@@ -70,6 +71,7 @@ public class SystemService {
             answerStatus.setImgWidth(         calcOpt.getInt("imageWidth"));
             answerStatus.setImgHeight(        calcOpt.getInt("imageHeight"));
             answerStatus.setImgAntialiasing(  calcOpt.getInt("antialiasing"));
+
 
             } catch (Exception e) {
                 myLog.error("Server status not reading. "+e.getMessage());

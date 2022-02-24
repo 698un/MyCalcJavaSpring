@@ -39,56 +39,29 @@ public class ClientPathController {
 
 
 
-
-
-    @GetMapping("/{somepath1}client{somepath2}")
-    public String  getSomeClientPath(@PathVariable (name="somepath1") String somePath1,
-                                     @PathVariable (name="somepath2") String somePath2,
+    @GetMapping("/client/{someFile}")
+    public String  getSomeClientFile(@PathVariable (name="someFile") String someFile,
                                      @CookieValue(value="ClientKey") String clientKey){
+        return clientPathResult("/client/"+someFile,clientKey);
+        }//getSomePathClient
 
-        //if service answer as client key not containt in clientepository then relink to "access_denied.html"
-        if (!clientService.clientIsRegistration(clientKey)) return "access_denied.html";
-        return "/"+somePath1+"client"+somePath2;
+    @GetMapping("/client/{somefolder}/{somefile}")
+    public String  getSomeClientFolderFile(@PathVariable (name="somefolder") String someFolder,
+                                           @PathVariable (name="somefile") String someFile,
+                                           @CookieValue(value="ClientKey") String clientKey){
+        return clientPathResult("/client/"+someFolder+"/"+someFile,clientKey);
         }//getSomePathClient
 
 
+    private String clientPathResult(String path,String clientKey){
 
-
-    @GetMapping("/admin{somepath}")
-    public String  getSomeAdminPath(@PathVariable (name="somepath") String somePathStr,
-                                     @CookieValue(value="ClientKey") String rootKey){
+        //path.replaceAll("/",File.separator);
 
         //if service answer as client key not containt in clientepository then relink to "access_denied.html"
-        if (!clientService.rootIsRegistration(rootKey)) return "access_denied.html";
-        return "/admin"+somePathStr;
-        }//getSomePathRoot
+        if (!clientService.clientIsRegistration(clientKey)) return "access_denied.html";
+        return path;
+        }
 
-
-
-
-    @RequestMapping(value = "/video/file/{filename}", method = RequestMethod.GET)
-    public ResponseEntity<?> getVideoFile(@PathVariable(name = "filename") String fileName,
-                                          @CookieValue(value="ClientKey") String rootKey){
-
-        //verify rootKey
-        if (!clientService.isRootKey(rootKey)) return ResponseEntity.ok().body("access denied!");
-
-        try {
-            String fullPath = videoService.getVideoFullPath(fileName);
-            File file = new File(fullPath);
-
-            HttpHeaders respHeaders = new HttpHeaders();
-            respHeaders.setContentType(MediaType.parseMediaType("video/mp4"));
-            respHeaders.setContentLength(file.length());
-            respHeaders.setContentDispositionFormData("attachment", fileName);
-
-            InputStreamResource isr = new InputStreamResource(new FileInputStream(file));
-            return new ResponseEntity<InputStreamResource>(isr, respHeaders, HttpStatus.OK);
-
-        }catch (Exception e) {
-            return ResponseEntity.ok().body(e.getMessage());
-            }
-        }//getVideoFile
 
 
 

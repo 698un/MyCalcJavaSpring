@@ -48,6 +48,10 @@ public class TaskController {
     @GetMapping("/newtask")
     public ResponseEntity<?> getNewTask(@CookieValue(value="ClientKey") String clientKey){
 
+
+       if (!clientService.clientIsRegistration(clientKey)) return ResponseEntity.ok().body(new ErrorMessage("invalid clientkey"));
+
+
         try{
             NewTask newTaskForClient = taskService.getNextTask(clientKey);
             return ResponseEntity.ok().body(newTaskForClient);
@@ -75,8 +79,17 @@ public class TaskController {
                                           @RequestBody String pixArrayStr,
                                           @CookieValue(value="ClientKey") String clientKey){
 
+        //SCENEKEY
+        if (!taskService.getSceneKey().equals(sceneKey)) {
+            myLog.error("invalid sceneKey");
+            return ResponseEntity.ok().body(new ErrorMessage("invalid scenekey"));
+            }
+
         //SEQURITY
-        if (!clientService.clientIsRegistration(clientKey)) return ResponseEntity.ok().body(new ErrorMessage("client not actual"));
+        if (!clientService.clientIsRegistration(clientKey)) return ResponseEntity.ok().body(new ErrorMessage("invalid clientkey"));
+
+
+
 
         //representatoin resultat in object
         PixelLine resPixelLine = new PixelLine(frameNum,lineNum);  //create object of resultat

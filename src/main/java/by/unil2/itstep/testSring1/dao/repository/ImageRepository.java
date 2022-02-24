@@ -77,7 +77,7 @@ public class ImageRepository {
             newFrameNum = imgCountInBuffer;//defined next frameIndex as last frameIndex in buffer+1
         }//Next i
 
-        //generated sceneKey
+        //generate new  sceneKey
         this.sceneKey = getNewKey();
     }//reset
 
@@ -92,6 +92,7 @@ public class ImageRepository {
     public int getImageAntialiasing() {
         return this.imgAntialiasing;
     }
+
     public String getSceneKey() {
         return this.sceneKey;
     }
@@ -209,15 +210,15 @@ public class ImageRepository {
         if (currentImage == null ||
             currentImage.getProcesstatus()!=ImageStatus.CALC_PROCESS) {
 
-            myLog.warn("image for flush resultat not found");
-            throw new CalcException("This line not actual");
+            myLog.warn("PixelLine not actual");
+            throw new CalcException("PixelLine not actual");
             }
 
 
         //flush to found image line of resultat
         try {
 
-            //clearing buffer if lastLine in flush in image
+            //clearing buffer if send last pixelLine of image
             if (complettePixelLine.getLineNumber()==this.imgHeight-1) clearCompletteImagesFromBuffer();
 
             return currentImage.flushComplettePixelLine(complettePixelLine);

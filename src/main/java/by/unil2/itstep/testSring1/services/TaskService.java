@@ -54,7 +54,7 @@ public class TaskService {
         //throw AccessException
         if (false==clientRep.inRepository(clientKey)) {
             myLog.warn("Wrong clientKey");
-            throw new AccessException("Not actual client");
+            throw new AccessException("invalid clientkey");
             }
 
         myLog.info("Client "+clientKey+" ask new task");
@@ -88,8 +88,8 @@ public class TaskService {
 
         //verify clientKey (security)
         if (!clientRep.inRepository(complettePixelLine.getClientKey())) {
-                myLog.warn("Wrong clientKey");
-                throw new AccessException("client not actual");
+                myLog.warn("invalid clientKey");
+                throw new AccessException("invalid clientkey");
                 }
 
 

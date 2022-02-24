@@ -69,7 +69,7 @@ public class SystemController {
         //if not root then return error_message
         if (!clientService.isRootKey(rootKey)) return ResponseEntity.ok().body(new ErrorMessage("not right for this command"));
 
-        myLog.debug("requestcommand_api/reset");
+        myLog.debug("requestcommand: api/reset");
         sysService.resetCalculation();
 
         return ResponseEntity.ok().body("reset_is_ok");
