@@ -10,6 +10,7 @@ import by.unil2.itstep.testSring1.utilits.MyLocker;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.springframework.stereotype.Component;
 
+import javax.servlet.ServletConfig;
 import java.io.File;
 import java.util.Random;
 
@@ -20,14 +21,27 @@ public class ImageRepository {
     private final CalcOptions calcOpt;
     private final MyLogger myLog;
 
+    //private final ServletConfig config;
+
+
 
     //constructor
     public ImageRepository(CalcOptions inpCalcOptions,
-                            MyLogger inpMyLogger ) {
+                           MyLogger inpMyLogger
+                           ) {
+
+        //this.config = inpServletConfig;//.getServletContext();
+
+
+        //String contextPath = config.getServletContext().getContextPath();
+        //System.out.println("PATH = "+contextPath);
+
+
+
         this.calcOpt = inpCalcOptions;
         this.myLog   = inpMyLogger;
         this.reset();
-    }
+        }
 
 
     private int imgWidth;
@@ -48,7 +62,7 @@ public class ImageRepository {
         try {
             this.deleteAllImages();
         } catch (Exception e){
-            System.out.println("DELETE IMAGES ERROR");
+            myLog.trace("DELETE IMAGES ERROR");
         };
 
         //set options from config

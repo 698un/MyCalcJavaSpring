@@ -32,6 +32,11 @@ public class CalcOptions {
         optListStr =     new ConcurrentHashMap<String,String>();
         this.reLoad();//read config from from file
         this.rootKey = getRandomKey(10);
+
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println(System.getProperty("user.dir"));
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+
         }//constructor
 
 
@@ -48,6 +53,7 @@ public class CalcOptions {
 
     public int    getInt(String name){
         String strValue = optListStr.get(name);
+        if (strValue==null) return 0;
         int intValue = Integer.valueOf(strValue);
         return intValue;
         }
