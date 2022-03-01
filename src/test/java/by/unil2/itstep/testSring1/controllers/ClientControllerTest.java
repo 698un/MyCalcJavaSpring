@@ -22,12 +22,6 @@ import static org.mockito.Mockito.when;
 @SpringBootTest
 class ClientControllerTest {
 
-    /*
-    private final CalcOptions calcOpt;
-    private final ClientService clientService;
-    private final MyLogger myLog;
-    */
-
 
     @Mock
     private CalcOptions calcOpt;
@@ -51,38 +45,102 @@ class ClientControllerTest {
     }
 
 
+    /**
+     * Test Generate new ClientKey and sending this clientKey to browser
+     */
     @Test
     void postClientKey() {
 
+        //dummy clientKey for test
+        when(clientService.getNewClientKey()).thenReturn("testClientKey");
 
-        //String myClientKey;
-        //prepare
-        String getUrl;// = "{somefile}";
-        String myClientKey = "1234567890";
+        //Build response for test
+        ResponseEntity<String> respStr =  clientController.postClientKey();
 
-        ResponseEntity<String> respStr;
-        HttpServletResponse HttpServlResp = null;
+        //extract Headers in String representation
+        String cookieFromResponse = respStr.getHeaders().toString();
 
-        //respStr =  clientController.postClientKey(HttpServlResp);
+        //example header
+        //[Set-Cookie:"ClientKey=testClientKey"]
 
-      //  respStr =  clientController.postClientKey(HttpServletResponse);// HttpServlResp);
-
-
-
-
+        //defined position clientKey in header
+        int index = cookieFromResponse.indexOf("testClientKey");
+        assertNotEquals(index,-1);
         }
 
 
-
-
-
-
-
+    /**
+     * test verify admin enter with VALID password
+     */
     @Test
-    void postRootKey() {
-    }
+    void postRootKey_validPassword() {
+
+        String rootPassword = "masterkey";
+
+        try {
+            //dummy clientKey for test
+            when(clientService.getNewRootKey(rootPassword)).thenReturn("testRootKey");
+
+            //Build response for test
+            ResponseEntity<?> respStr =  clientController.postRootKey("masterkey");
+
+            //extract Headers in String representation
+            String cookieFromResponse = respStr.getHeaders().toString();
+
+            System.out.println(cookieFromResponse);
+
+            //example header
+            //[Set-Cookie:"ClientKey=testClientKey"]
+
+            //defined position clientKey in header
+            int index = cookieFromResponse.indexOf("testRootKey");
+            assertNotEquals(index,-1);
+
+            } catch(Exception e) {}
+
+
+    }//postRootKey
+
+
+    /**
+     * Test  Wron Root Password
+     */
+    @Test
+    void postRootKey_invalidPassword() {
+
+        String rootPassword = "wrongPassword";
+
+        try {
+            //dummy clientKey for test
+            when(clientService.getNewRootKey(rootPassword)).thenReturn("testRootKey");
+
+            //Build response for test
+            ResponseEntity<?> respStr =  clientController.postRootKey("masterkey");
+
+            //extract Headers in String representation
+            String cookieFromResponse = respStr.getHeaders().toString();
+
+            System.out.println(cookieFromResponse);
+
+            //example header
+            //[Set-Cookie:"ClientKey=testClientKey"]
+
+            //defined position clientKey in header
+            int index = cookieFromResponse.indexOf("testRootKey");
+            assertEquals(index,-1);
+
+        } catch(Exception e) {}
+
+
+    }//postRootKey
+
+
+    /**
+     * This test not actual because apiExit is void method
 
     @Test
     void apiExit() {
+
     }
+    */
 }

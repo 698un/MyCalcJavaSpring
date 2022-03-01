@@ -65,19 +65,19 @@ public class ClientController {
 
 
     @PostMapping("/rootkey")
-    public ResponseEntity<?> postRootKey(HttpServletResponse response,
-                                         @RequestBody String adminPassword){
+    public ResponseEntity<?> postRootKey(@RequestBody String adminPassword){
+
         myLog.info(" New Client ask RootKey");
 
         //get root key from config
-        try {
+         try {
 
             String newRootKey = clientService.getNewRootKey(adminPassword);//get RootKey from Service
-            Cookie cookie = new Cookie("ClientKey",newRootKey);      //create cookie for Root
-            response.addCookie(cookie);                                    //add cookie to response
-            response.setContentType("text/plain");                         // mark response as string
 
-            return ResponseEntity.ok().body(newRootKey);
+            //add headers with Cookie
+            HttpHeaders headers = new HttpHeaders();
+            headers.add("Set-Cookie","ClientKey="+newRootKey);
+            return ResponseEntity.ok().headers(headers).build();
 
             } catch (AccessException e) {
                     return ResponseEntity.ok().body(new ErrorMessage(e.getMessage()));//send errorMessage as AccessException
@@ -90,8 +90,7 @@ public class ClientController {
 
 
     @PostMapping("/api/exit")
-    public ResponseEntity<String> apiExit(HttpServletResponse response,
-                                          @CookieValue(value="ClientKey") String clientKey){
+    public ResponseEntity<String> apiExit(@CookieValue(value="ClientKey") String clientKey){
 
         myLog.debug("command_api/exit");
         clientService.userExit(clientKey);
