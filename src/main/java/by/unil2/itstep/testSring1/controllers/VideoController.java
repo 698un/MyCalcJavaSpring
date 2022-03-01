@@ -37,12 +37,6 @@ public class VideoController {
         this.calcOpt =        inpCalcOptions;
         }
 
-/*
-            if (urlString.indexOf("/video/all") == 0) answer = ControlVideo.getVideoAll(netReq);
-
-            if (urlString.indexOf("/video/file/") == 0) answer = ControlVideo.getVideoFile(netReq);
-  */
-
 
     @PostMapping("/api/createvideo/{filename}")
     public ResponseEntity<?> postCreateVideo(@PathVariable(name="filename") String fileName,

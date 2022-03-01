@@ -88,45 +88,6 @@ public class SystemController {
 
 
 
-    /**
-     * This method converter string from body of request to array of numbers
-     * @param inpString
-     * @return short[]  - array of numbers
-     */
-    private short[] getArrayFromString(String inpString) {
-
-        //converted bodyString to number Array
-        int byteCountInLine = inpString.length();//count number id body
-        int pixelCountInLine =byteCountInLine/3/3;
-
-        short[] pixelArray = new short[byteCountInLine/3];
-        int index;
-
-        StringBuffer byteOneStr = new StringBuffer("");
-        short byteOneInt;
-
-        //преобразоывание строки цифр в массив int
-        for (int i=0;i<pixelCountInLine;i++) {
-
-            //перебор каналов
-            for (int ri = 0; ri < 3; ri++) {
-                index = i * 9 + ri*3;
-                byteOneStr.setLength(0);
-                byteOneInt =(short)(
-                        (inpString.charAt( index + 0) - '0') * 100 +
-                                (inpString.charAt( index + 1) - '0') * 10 +
-                                (inpString.charAt( index + 2) - '0')
-                );
-                pixelArray[i*3+ri] = byteOneInt;
-            }//next ri
-        }//next i
-
-        return pixelArray;
-    }//getArrayFromString
-
-
-
-
 
 
 
