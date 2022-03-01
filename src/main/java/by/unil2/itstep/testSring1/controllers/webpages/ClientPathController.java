@@ -25,15 +25,12 @@ import java.io.IOException;
 public class ClientPathController {
 
     private final ClientService clientService;
-    private final VideoService videoService;
     private final CalcOptions calcOpt;
 
     //constructor
     public ClientPathController(ClientService inpClientService,
-                                VideoService inpVideoService,
                                 CalcOptions inpCalcOptions){
         this.clientService = inpClientService;
-        this.videoService =  inpVideoService;
         this.calcOpt =       inpCalcOptions;
         }
 

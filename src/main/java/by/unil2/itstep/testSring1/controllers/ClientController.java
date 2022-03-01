@@ -7,6 +7,7 @@ import by.unil2.itstep.testSring1.services.ClientService;
 import by.unil2.itstep.testSring1.services.ProductService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -40,7 +41,7 @@ public class ClientController {
         }//constructor
 
     @PostMapping("/clientkey")
-    public ResponseEntity<String> postClientKey(HttpServletResponse response){
+    public ResponseEntity<String> postClientKey(){
 
         String newClientKey;//Object for ClientKey
         myLog.info("New Client ask clientKey");
@@ -48,10 +49,11 @@ public class ClientController {
         //get client key from service for New Client
         try {
             newClientKey = clientService.getNewClientKey();
-            Cookie cookie = new Cookie("ClientKey",newClientKey);//create cookie
-            response.addCookie(cookie);                                //add cookie to response
-            response.setContentType("text/plain");// mark response as string
-            return ResponseEntity.ok().body(newClientKey);
+
+            //add headers with Cookie
+            HttpHeaders headers = new HttpHeaders();
+            headers.add("Set-Cookie","ClientKey="+newClientKey);
+            return ResponseEntity.ok().headers(headers).build();
 
             } catch(Exception e) {
               myLog.error("Get New ClientKey"+e.getMessage());
