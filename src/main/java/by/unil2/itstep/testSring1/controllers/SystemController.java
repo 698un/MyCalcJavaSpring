@@ -33,7 +33,7 @@ public class SystemController {
 
 
     @GetMapping("/server/status")
-    public ResponseEntity<?> getServerStatus(HttpServletResponse response) {
+    public ResponseEntity<?> getServerStatus() {
 
         //object of response
         try {
@@ -50,8 +50,7 @@ public class SystemController {
 
 
     @PostMapping("/api/reset")
-    public ResponseEntity<?> postApiReset(HttpServletResponse response,
-                                          @CookieValue(value="ClientKey") String rootKey){
+    public ResponseEntity<?> postApiReset(@CookieValue(value="ClientKey") String rootKey){
 
         //if not root then return error_message
         if (!clientService.isRootKey(rootKey)) return ResponseEntity.ok().body(new ErrorMessage("not right for this command"));
