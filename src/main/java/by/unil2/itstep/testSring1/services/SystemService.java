@@ -5,7 +5,7 @@ import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
 import by.unil2.itstep.testSring1.dao.repository.ImageRepository;
 import by.unil2.itstep.testSring1.dao.repository.VideoRepository;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
-import by.unil2.itstep.testSring1.models.Product;
+//import by.unil2.itstep.testSring1.models.Product;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.springframework.http.ResponseEntity;

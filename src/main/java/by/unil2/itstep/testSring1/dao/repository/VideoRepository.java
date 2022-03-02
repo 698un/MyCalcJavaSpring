@@ -41,11 +41,13 @@ public class VideoRepository {
         MyVideoSave.videoCreateSetEnabled(this.videoFolder);
         }
 
+
     public Boolean fileIsExist(String fileName){
 
+        File verifyFile = new File(this.videoFolder+File.separator+fileName);
 
+        return verifyFile.exists();
 
-        return false;
         }
 
 
@@ -132,7 +134,7 @@ public class VideoRepository {
                               File.separator+
                               fileName;
 
-        System.out.println("fullFilePath:"+fullFilePath);
+        //System.out.println("fullFilePath:"+fullFilePath);
 
         File videoFileObject = new File(fullFilePath);
 
@@ -141,7 +143,7 @@ public class VideoRepository {
         if (videoFileObject.isFile()==false) throw new VideoException("incorrect File name");
 
         return fullFilePath;
-        //return videoFileObject;
+
         }
 
 

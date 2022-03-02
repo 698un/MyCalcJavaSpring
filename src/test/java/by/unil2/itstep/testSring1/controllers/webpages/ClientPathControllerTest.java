@@ -138,11 +138,4 @@ public class ClientPathControllerTest {
 
 
 
-    @Test
-    void testGetSomeClientFile() {
-    }
-
-    @Test
-    void testGetSomeClientFolderFile() {
-    }
 }

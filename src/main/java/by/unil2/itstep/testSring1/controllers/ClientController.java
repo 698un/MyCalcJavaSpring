@@ -1,10 +1,8 @@
 package by.unil2.itstep.testSring1.controllers;
 
 import by.unil2.itstep.testSring1.controllers.webentity.ErrorMessage;
-import by.unil2.itstep.testSring1.dao.model.Client;
 import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.services.ClientService;
-import by.unil2.itstep.testSring1.services.ProductService;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.springframework.http.HttpHeaders;
@@ -12,13 +10,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletResponse;
+
+
 
 /**
  * This class control request as client connections

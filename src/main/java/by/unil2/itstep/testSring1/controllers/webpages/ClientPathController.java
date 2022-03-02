@@ -56,7 +56,6 @@ public class ClientPathController {
 
     private String clientPathResult(String path,String clientKey){
 
-        //path.replaceAll("/",File.separator);
 
         //if service answer as client key not containt in clientepository then relink to "access_denied.html"
         if (!clientService.clientIsRegistration(clientKey)) return "access_denied.html";

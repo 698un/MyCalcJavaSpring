@@ -20,15 +20,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class VideoControllerTest {
 
 
-    /*
-    private final VideoService videoService;
-    private final MyLogger myLog;
-    private final ClientService clientService;
-    private final CalcOptions calcOpt;
-     */
-
-
-
     @Mock
     private VideoService videoService;
     @Mock

@@ -60,7 +60,6 @@ public class MyImage{
         this.frameNum =         inpFrameNum;
         this.width =            inpWidth;
         this.height =           inpHeight;
-        this.pixelLine =        new PixelLine[inpHeight];
         this.completeMinIndex = -1;//noLine is complette
         this.processStatus =    ImageStatus.CALC_PROCESS;//image is not complette
         this.completteLineCount = 0;
@@ -73,6 +72,7 @@ public class MyImage{
 
     public void clear(){
         this.pixelLine = new PixelLine[this.height];
+        for (int i=0;i<this.height;i++) pixelLine[i]=null;
         }
 
 
@@ -82,6 +82,8 @@ public class MyImage{
      * @return  this pixelLine or null if not found
      */
     public PixelLine getEmptyPixelLine(String clientKey) {
+
+
 
         for (int i = 0; i < this.height; i++) {
 

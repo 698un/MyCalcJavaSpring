@@ -1,7 +1,6 @@
 package by.unil2.itstep.testSring1.controllers.webentity;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class ResultatReportTest {

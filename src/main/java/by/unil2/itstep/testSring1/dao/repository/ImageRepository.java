@@ -21,6 +21,8 @@ public class ImageRepository {
     private final CalcOptions calcOpt;
     private final MyLogger myLog;
 
+
+
     //private final ServletConfig config;
 
 

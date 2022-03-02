@@ -1,19 +1,10 @@
 package by.unil2.itstep.testSring1.services;
 
-import by.unil2.itstep.testSring1.dao.model.Client;
 import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
-import by.unil2.itstep.testSring1.exceptions.AccessException;
-import by.unil2.itstep.testSring1.models.Product;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import javax.servlet.http.Cookie;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class ClientService {
@@ -80,16 +71,7 @@ public class ClientService {
         }//clientIsRegistration
 
 
-    /**
-     * this method verify rootKey
-     * @param rootKey
-     * @return true if rootKey is correct
-     * @return false if rootKey is NOT correct
-     */
-    public Boolean rootIsRegistration(String rootKey){
-        if (calcOpt.getCurrentRootKey().equals(rootKey)) return true;
-        return false;
-        }//clientIsRegistration
+
 
 
     public void userExit(String clientKey){
@@ -106,13 +88,7 @@ public class ClientService {
                     }
             } catch (Exception e){}
 
-
-
-
-
-
-
-        }
+        }//userExit
 
 
 

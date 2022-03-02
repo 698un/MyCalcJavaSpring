@@ -2,15 +2,11 @@ package by.unil2.itstep.testSring1.dao.repository;
 
 
 
-import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-
 import by.unil2.itstep.testSring1.dao.model.Client;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
-import by.unil2.itstep.testSring1.utilits.loger.LogState;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.springframework.stereotype.Component;
 
@@ -85,14 +81,14 @@ public class ClientRepository{
 
     public int getClientCount() throws Exception{
 
+        //deleting old clients
         try {
             if (System.currentTimeMillis() > this.timeDeletingOldClients) {
-
                 this.clearOldClients();//deleting deprecate clientKeys
-
                 //update time  for next deleting not active clients
                 this.timeDeletingOldClients = System.currentTimeMillis() + calcOpt.getInt("clientClearTime");
                 }
+
 
             return clientList.size();
 
