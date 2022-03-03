@@ -1,8 +1,6 @@
 package by.unil2.itstep.testSring1.services;
 
 import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
-import by.unil2.itstep.testSring1.dao.repository.VideoRepository;
-import by.unil2.itstep.testSring1.exceptions.AccessException;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
 import org.junit.Before;
@@ -11,20 +9,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import by.unil2.itstep.testSring1.utilits.CalcOptions;
-import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-import org.springframework.boot.test.context.SpringBootTest;
-import java.io.File;
-import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 

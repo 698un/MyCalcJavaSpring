@@ -43,6 +43,9 @@ public class TaskService {
 
     private long lineLifeTime;
 
+    //for test
+    public long getLineLifeTime(){       return this.lineLifeTime;   }//get lineLifeTime
+
 
     public String getSceneKey(){
         return imgRep.getSceneKey();

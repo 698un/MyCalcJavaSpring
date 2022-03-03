@@ -1,18 +1,12 @@
 package by.unil2.itstep.testSring1.services;
 
 import by.unil2.itstep.testSring1.controllers.webentity.ServerStatus;
-import by.unil2.itstep.testSring1.dao.repository.ClientRepository;
 import by.unil2.itstep.testSring1.dao.repository.ImageRepository;
 import by.unil2.itstep.testSring1.dao.repository.VideoRepository;
-import by.unil2.itstep.testSring1.exceptions.AccessException;
-//import by.unil2.itstep.testSring1.models.Product;
 import by.unil2.itstep.testSring1.utilits.CalcOptions;
 import by.unil2.itstep.testSring1.utilits.loger.MyLogger;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class SystemService {
@@ -40,7 +34,7 @@ public class SystemService {
 
     //method return appPath
     public String getPathApp(){
-        return calcOpt.getStr("applicationPath");
+        return calcOpt.getApplicationPath();
         }//getAppPath
 
 

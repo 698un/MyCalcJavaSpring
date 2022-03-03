@@ -30,12 +30,9 @@ public class VideoService {
         this.clientRep= inpClientRepository;
         this.videoRep =   inpVideoRepository;
 
-        this.reset();
+        //this.reset();
         }
 
-    public void reset(){
-
-    }
 
 
 
@@ -55,6 +52,7 @@ public class VideoService {
             videoRep.createNewVideo(fileName);
             } catch (Exception e) {throw new Exception(e.getMessage());}
 
+
         }//createMP4
 
 
@@ -63,7 +61,6 @@ public class VideoService {
 
         return videoRep.fileIsExist(fileName);
         }
-
 
 
     /**

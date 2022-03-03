@@ -55,9 +55,6 @@ public class PixelLine {
         this.BT = System.currentTimeMillis();  //mark time of create
         }
 
-
-
-
     public int getFrameNumber(){   return this.frameNum;  }
     public int getLineNumber(){    return this.lineNum;  }
     public short[] getByteArray(){  return this.pixelByteArray;}

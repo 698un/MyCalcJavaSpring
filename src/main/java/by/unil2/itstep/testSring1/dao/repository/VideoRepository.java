@@ -57,7 +57,7 @@ public class VideoRepository {
      * This method start the coding of videoFile
       * @return filename
      */
-    public void createNewVideo(String fileName) throws Exception{
+    public boolean createNewVideo(String fileName) throws Exception{
 
         //if process of create of videoFile is NOT ENABLED then exit with errorMessage
         if (!MyVideoSave.videoCreateIsEnabled(this.videoFolder)) throw new AccessException("Process is not Complette");
@@ -83,7 +83,7 @@ public class VideoRepository {
 
             } catch (Exception e){throw new Exception(e.getMessage());}
 
-        //return videoFileName;
+        return true;
         }
 
 
