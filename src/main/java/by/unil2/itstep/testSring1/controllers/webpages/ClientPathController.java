@@ -50,10 +50,6 @@ public class ClientPathController {
         }//getSomePathClient
 
 
-
-
-
-
     private String clientPathResult(String path,String clientKey){
 
 
