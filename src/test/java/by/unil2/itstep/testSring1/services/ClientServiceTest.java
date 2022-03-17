@@ -18,12 +18,6 @@ import static org.mockito.Mockito.when;
 @SpringBootTest
 class ClientServiceTest {
 
-    /*
-    private final CalcOptions calcOpt;
-    private final MyLogger myLog;
-    private final ClientRepository clientRep;
-     */
-
 
     @Mock
     private MyLogger myLog;
